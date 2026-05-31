@@ -1,0 +1,22 @@
+{
+  "SmolLM2-360M": {
+    "inference_ms": 4389.4,
+    "model_mb": 243.2,
+    "vram_gb": 0.99
+  },
+  "TinyLlama-1.1B": {
+    "inference_ms": 2177.2,
+    "model_mb": 716.5,
+    "vram_gb": 1.67
+  },
+  "Qwen2.5-1.5B": {
+    "inference_ms": 1830.7,
+    "model_mb": 1074.3,
+    "vram_gb": 1.17
+  },
+  "Gemma-4-E2B": {
+    "inference_ms": 3598.4,
+    "model_mb": 911.8,
+    "vram_gb": 0.94
+  }
+}

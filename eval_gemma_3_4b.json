@@ -1,0 +1,13 @@
+{
+  "zero_shot": {
+    "rouge1": 0.2419,
+    "rougeL": 0.2254
+  },
+  "fine_tuned": {
+    "rouge1": 0.2419,
+    "rougeL": 0.2254
+  },
+  "inference_ms": 5732.382,
+  "model_mb": 3036.0,
+  "vram_gb": 3.23
+}

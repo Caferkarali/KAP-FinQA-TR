@@ -1,0 +1,5 @@
+﻿Model,Toplam Parametre,Model Boyutu (MB),PyTorch Ayrılan(GB),PyTorch Rezerve(GB),SMI Kullanılan (MB),SMI Net Delta (MB),GPU Toplam (MB)
+SmolLM2-360M,205M,243.2,0.273,0.637,787,630,15360
+TinyLlama-1.1B,617M,716.5,0.956,2.059,2243,2086,15360
+Qwen2.5-1.5B,890M,1074.3,1.161,2.895,3099,2942,15360
+Gemma-4-E2B,2493M,3036.0,3.227,6.594,6887,6730,15360

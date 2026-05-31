@@ -1,0 +1,2659 @@
+{
+  "summary": {
+    "model": "Qwen2.5-1.5B",
+    "n_test": 331,
+    "avg_rouge1": 0.2223,
+    "avg_rougeL": 0.2148,
+    "avg_bleu": 0.0394
+  },
+  "details": [
+    {
+      "soru": "Dönem Başı Nakit ve Nakit Benzererleri ne kadar oldu?",
+      "gold": "4",
+      "pred": "168.100",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Dönem Sonu Bakiyeler 1.926.796 ile 46.150.223 arasında ne kadar arttı?",
+      "gold": "30.999.351",
+      "pred": "Arttı",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Satışların Maliyeti ne kadar oldu?",
+      "gold": "-362.638",
+      "pred": "-362.638",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Neden HAYAT DIŞI TEKNİK GELİRlerin brüt toplamı Decreşti?",
+      "gold": "HAYAT DIŞI TEKNİK GİDERlerin brüt toplamı Decreşti. Bu decrease, HAYAT DIŞI TEKNİK GİDERlerin brüt toplamının 2023 yılında 101.452.476.204 ile karşılaştırıldığında daha düşük bir değer olarak ortaya çıktı.",
+      "pred": "Brüt toplamları arttıktığına göre, HAYAT DIŞİ TEKNİK GELİRlerinin brüt toplamı arttıktığına göre, HAYAT DIŞİ TEKNİK GELİRlerinin brüt toplamı arttıktığı",
+      "rouge1": 0.4235,
+      "rougeL": 0.4,
+      "bleu": 0.0193
+    },
+    {
+      "soru": "Cari Dönem 01.01.2025 - 30.06.2025 nedir?",
+      "gold": "Cari Dönem 01.01.2025 - 30.06.2025",
+      "pred": "Cari Dönem 01.01.2025 - 30.06.2025, 17.000.000 TL'dir.",
+      "rouge1": 0.7826,
+      "rougeL": 0.7826,
+      "bleu": 0.4111
+    },
+    {
+      "soru": "Dönem Sonu Bakiyeler Ne Dir?",
+      "gold": "717.436",
+      "pred": "1.527.348",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Yurtdışındaki İşletmelerin Çevrimi Dışındaki Yabancı Para Çevrim Farkları ne kadar?",
+      "gold": "9.780.906",
+      "pred": "-511.206",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Konsolide finansal tablolardaki hata veya hile kaynaklı 'önemli yanlışlık' riskleri ne kadar belirlenmektedir?",
+      "gold": "Konsolide finansal tablolardaki hata veya hile kaynaklı 'önemli yanlışlık' riskleri, bağımsız denetim boyunca belirlenmekte ve değerlendirilmekte.",
+      "pred": "Grup'un sürekliliğini devam ettirmek için gereken hata veya hile kaynaklı 'önemli yanlışlık' riskleri 0'dır.",
+      "rouge1": 0.4186,
+      "rougeL": 0.4186,
+      "bleu": 0.3033
+    },
+    {
+      "soru": "Sermaye Tahsis Avansları Değer Azalış Giderleri (-) 0 ile ne kadar oldu?",
+      "gold": "0",
+      "pred": "-1.278.534",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Grup'un 31 Aralık 2024 tarihinde sona eren yıla ait Yönetim Kurulu'nun yıllık faaliyet raporunun bağımsız denetimi neye dayanır?",
+      "gold": "Önceki bağımsız denetim kuruluşu, Grup'un 2024 yılına ait Yönetim Kurulu'nun yıllık faaliyet raporu ile ilgili olarak, 4 Mart 2025 tarihli bağımsız denetim raporunda olumlu görüş bildirmiştir.",
+      "pred": "Bağımsız denetimde kullanılan etik kurallar ile Sermaye Piyasası Kurulu'nun yıllık faaliyet raporu için",
+      "rouge1": 0.3667,
+      "rougeL": 0.3333,
+      "bleu": 0.0752
+    },
+    {
+      "soru": "Hangi faktörler Kıdem Tazminatı Karşılıklarını etkiledi?",
+      "gold": "Kıdem Tazminatı Karşılıkları, şirketin mali durumuna ve işveren-İşçi ilişkisine bağlı.",
+      "pred": "Kıdem Tazminatı Karşılıkları, kıdem tazminatın verilen vergiler ile ilgili olarak değişti.",
+      "rouge1": 0.3889,
+      "rougeL": 0.3889,
+      "bleu": 0.0933
+    },
+    {
+      "soru": "Dönem Sonu Bakiyeler 2023 yılında ne oldu?",
+      "gold": "Dönem Sonu Bakiyeler 2023 yılında 611.928.571 TL ile 495.889.838 TL arasında değişti.",
+      "pred": "1.547.689.000 TL",
+      "rouge1": 0.0741,
+      "rougeL": 0.0741,
+      "bleu": 0.001
+    },
+    {
+      "soru": "Beklenen kredi zararlarında kullanılan tahmin ve varsayımların neye bağlıdır?",
+      "gold": "Beklenen kredi zararlarında kullanılan tahmin ve varsayımlar, Banka'nın geçmiş performancesi, mevzuat ve diğer uygulamalar ile ilgili riskler, serta TFRS 9'un kapsamlı ve karmaşık açıklama gereklilikleri ile ilgili faktörler tarafından belirlenir.",
+      "pred": "Beklenen kredi zararlarının tahmin ve varsayımı, banka tarafından hesaplanan kredilerin zararları ile ilgili olarak belirlenen kredilerin zararları ile ilgili olarak belirlenen kredilerin zararları ile ilgili",
+      "rouge1": 0.4225,
+      "rougeL": 0.3099,
+      "bleu": 0.027
+    },
+    {
+      "soru": "Devam Eden Riskler Karşılığında Değişim (Reasürör Payı ve Devreden Kısım Düşülmüş Olarak) ne kadar oldu?",
+      "gold": "0",
+      "pred": "-1.187.988.275",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Dönem Karının Peşin Ödenen Vergi ve diğer Yükümlükleri (-) ne kadar oldu?",
+      "gold": "-821.016.082",
+      "pred": "-1.000.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Önceki Dönem 3 Aylık için Kar veya Zarar ve diğer Kapsamlı Gelir Tablosu (TFRS 9'a Göre Karşılık Ayrılmış) ne kadar idi?",
+      "gold": "29.150.858 TL",
+      "pred": "16.675.342",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Muhasebe politiklarının uygunluğu nasıl değerlendirilir?",
+      "gold": "Yönetim tarafından kullanılan muhasebe politikalarının uygunluğu ile yapılan muhasebe tahminlerinin ve ilgili açıklamaların makul olup olmadığı değerlendirilir.",
+      "pred": "Muhasebe politikalarının uygunluğu, şirketin finansal performansını ve risklerini belirleyen önemli bir faktördür. Bu politikaların uygunluğunu değerlendiren bir süreç, şirketin finansal performansı ve risklere ilişkin",
+      "rouge1": 0.2903,
+      "rougeL": 0.2903,
+      "bleu": 0.0094
+    },
+    {
+      "soru": "Vadeli Döviz Alım İşlemleri'ne ait total para miktarı ne kadar?",
+      "gold": "89.438.385",
+      "pred": "26.520.512",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Kapsamında Yapılan Ödemeler",
+      "gold": "59.598 + 60.988 = 120.586",
+      "pred": "-59.598",
+      "rouge1": 0.5,
+      "rougeL": 0.5,
+      "bleu": 0
+    },
+    {
+      "soru": "Faaliyetlerle İlgili diğer varlıklardaki azalış (artış) ne kadar oldu?",
+      "gold": "0 0",
+      "pred": "-1.356",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Banka'nın 31 Aralık 2025 tarihi itibarıyla devre konu yükümlülüklerinin peşin değeri bağımsız bir aktüer tarafından Kanun'da belirtilen aktüeryal Dönem içinde emeklilik yükümlülükleri ile çalışanların sosyal yardım planlarına ilişkin ve çalışanlara sağlanan faydaların hesaplanmasında değişikliğe yol açabilecek yönetmelik ve düzenlemelerde önemli değişiklik olup olmadığı değerlendirildi?",
+      "gold": "Devir yükümlülükleri hesaplamasında kullanılan varsayım ve tahminler ve bu varsayımlardaki olası değişikliklerin etkileriyle birlikte devir tarihine ilişkin belirsizlik ve teknik faiz oranının Kanun ile belirlenmiş olmasının etkileri dikkate alınarak, bu konu kilit denetim konusu olarak değerlendirilmiştir.",
+      "pred": "Bu durum, banka'nın sosyal sigorta yapması için gereken kavramlar ve algoritmalarının geliştirilmesiyle ilgili önemli bir denetim gerektirdiğini göstermektedir. Bu denetimde, banka'nın sosyal sigorta yap",
+      "rouge1": 0.2045,
+      "rougeL": 0.1591,
+      "bleu": 0.0057
+    },
+    {
+      "soru": "Konsolide olmayan finansal tabloların bağımsız denetimine ilişkin sorumluluklar ne kadar açıkça açıklanmıştır?",
+      "gold": "Ayırtılı bir şekilde açıklanmiştir.",
+      "pred": "Bu sorumluluklar, raporu ile ilgili bağımsız denetimlerin bağımsız denetmenin konsolide olmayan finansal tablolarının bağımsız denetiminde kullanılan yöntemleriyle yürütülmesini gerektirir.",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Nasıl değişti TAV HAVALİMANLARI HOLDİNG A.Ş.'nin varlıklarının toplanması?",
+      "gold": "TAV HAVALİMANLARI HOLDİNG A.Ş.'nin varlıklarının toplanması 2026 - 1. 3 Aylık Bildirim'de %0,05 arttı.",
+      "pred": "Toptoplanan varlıkların toplamı, 2025 yılında 1.100.000 TL olarak toplanırken, 2026 yılında 1.150.000 TL olarak toplanmıştır.",
+      "rouge1": 0.2,
+      "rougeL": 0.2,
+      "bleu": 0.0132
+    },
+    {
+      "soru": "Sigorta Şirketleri Finansal Raporu ne kadar para birimi kullanıyor?",
+      "gold": "TL",
+      "pred": "TL",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "6.759 ve 2.562 ne kadar?",
+      "gold": "6.759 ve 2.562",
+      "pred": "Bu sayfada, 6.759 ve 2.562 ne kadar?",
+      "rouge1": 0.7143,
+      "rougeL": 0.7143,
+      "bleu": 0.1635
+    },
+    {
+      "soru": "Muallak Tazminatlar Karşılığında Değişim (Reasürör Payı ve Devreden Kısım Düşülmüş Olarak) 2023 yılında ne kadar oldu?",
+      "gold": "-1.187.988.275",
+      "pred": "-1.000.000",
+      "rouge1": 0.2857,
+      "rougeL": 0.2857,
+      "bleu": 0
+    },
+    {
+      "soru": "Hile kaynaklı önemli bir yanlışlığı tespit edememe riskinden yüksektir.",
+      "gold": "Evet, hile kaynaklı önemli bir yanlışlığı tespit edememe riskinden yüksektir.",
+      "pred": "Evet, bu riskden dolayı, Hile kaynaklı önemli bir yanlışlığı tespit edememe riskinden yüksektir.",
+      "rouge1": 0.8889,
+      "rougeL": 0.8889,
+      "bleu": 0.5761
+    },
+    {
+      "soru": "Ticari Alacaklar toplamı ne kadar oldu?",
+      "gold": "933",
+      "pred": "217.874",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Varlıklarda değer artışı ne kadar oldu?",
+      "gold": "229.176.351",
+      "pred": "-73.313.716",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Arazi ve Arsalar ne kadar idi?",
+      "gold": "627.779",
+      "pred": "1.681.486",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Hangi faktörler Kredi Kart Harcama Limit Taahhütleri arttı?",
+      "gold": "Kredi kart harcama limit taahhütleri, Kredi kart harcama limitinin artması ve daha yüksek harcama limitine sahip olan müşteriler ile ilgili faktörler",
+      "pred": "Kredilerin harcalanması, konsolide finansal tabloların hesaplandığı tarihten sonra değiştiğini gösterir.",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Hangi faktörler Azınlık Paylarının artışına neden oldu?",
+      "gold": "Azınlık Paylarının artışına neden olan faktörler, şirketin successfulnessi ve customer satisfactionı ile ilgili olarak belirlenecek.",
+      "pred": "Azınlık payının artışı, şirketin finansal performansını etkileyen önemli bir faktördür. Bu faktör, şirketin finansal performansının artması ile ilgili olarak, şirketin finansal performansının azaldığına neden olabilir",
+      "rouge1": 0.4407,
+      "rougeL": 0.3729,
+      "bleu": 0.0201
+    },
+    {
+      "soru": "Konsolide finanse edilen şirketin genel performansı nedir?",
+      "gold": "Bu dönemde şirketin genel performansı olumlu oldu. Kar ve zarardaki net artışı %10,5 ile 1.343.778.022 TL olarak belirlendi.",
+      "pred": "Genel performans, 2023 yılında -174.434.596 TL ile -20.624.776 TL arasında değişti.",
+      "rouge1": 0.186,
+      "rougeL": 0.186,
+      "bleu": 0.0119
+    },
+    {
+      "soru": "Esas Faaliyetlerden Diğer Gelirler'ne ait olan rakam ne kadar?",
+      "gold": "35.183",
+      "pred": "162.871",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden arttı Vadeli Döviz Alım-Satım İşlemleri?",
+      "gold": "Vadeli Döviz Alım-Satım İşlemleri artti çünkü exchange rate daha yüksek oldu.",
+      "pred": "Artışi neden oldu?",
+      "rouge1": 0.1905,
+      "rougeL": 0.1905,
+      "bleu": 0
+    },
+    {
+      "soru": "31 Aralık 2025 tarihi itibarıyla Pınar Süt Mamulleri Sanayii Anonim Şirketi'nin sermaye değeri ne kadar idi?",
+      "gold": "100.000.000 TL",
+      "pred": "1,89 Billion TL",
+      "rouge1": 0.25,
+      "rougeL": 0.25,
+      "bleu": 0.1136
+    },
+    {
+      "soru": "DİĞER CARİ OLMAYAN VARLIKLAR TOPLAMI ne kadar oldu?",
+      "gold": "12.839.754.087",
+      "pred": "0",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Sınırlı Olumlu Görüşün Dayanağı bölümünde belirtilen konunun etkileri hariç olmak üzere ilişikteki finansal tablolar, Şirket'in 31 Aralık 2025 tarihi itibarıyla finansal durumunu ve aynı tarihte sona eren hesap dönemine ait finansal performansını ve nakit akışlarını TFRS'lere uygun olarak sunmaktadır.",
+      "gold": "Şirketin finansal tabloları TFRS'lere uygun olarak sunmaktadır.",
+      "pred": "Bu konu, şirketin 31 Aralık 2025 tarihinde sona eren hesap dönemine ait finansal durumu ve finansal performansını açıklamaktadır. Bu konu, şirketin 2025 yılına kadar olan süre zarar",
+      "rouge1": 0.1364,
+      "rougeL": 0.1364,
+      "bleu": 0.007
+    },
+    {
+      "soru": "Cari Dönem Vergiyle İlgili Varlıklar ne kadar oldu?",
+      "gold": "148",
+      "pred": "148",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Neden Kredilerde artış var?",
+      "gold": "Kredilerde artış, şirketin kredi borcu artışına bağlı olarak gerçekleşmiştir.",
+      "pred": "Kredilerde artış, kreditlerden kazanan maliyeti artırmıştır.",
+      "rouge1": 0.2609,
+      "rougeL": 0.2609,
+      "bleu": 0.0524
+    },
+    {
+      "soru": "Önceki dönemin net zararı ne kadar oldu?",
+      "gold": "0 TL",
+      "pred": "-1.532.669.326",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden döneme göre daha yüksek bir kar elde edildi?",
+      "gold": "Dönem karı veya zararı, daha yüksek bir kar elde etmek için yapılan yatırımların sonuçlarıdır.",
+      "pred": "Dönem sonuna kadar olan dönemde, şirketin kariyi arttırdı.",
+      "rouge1": 0.1714,
+      "rougeL": 0.1714,
+      "bleu": 0.0131
+    },
+    {
+      "soru": "Ara dönem konsolide finansal bilgilere ilişkin sınırlı denetim sonuçının niteliği nedir?",
+      "gold": "Sınırlı Bağımsız Denetim Standardı (SBDS) 2410",
+      "pred": "Sınırlı denetim, banka finansal bilgilerinin doğru ve tam olarak sunulması için gereken sınırlı denetim sonuçları ile ilgili",
+      "rouge1": 0.2353,
+      "rougeL": 0.2353,
+      "bleu": 0.0115
+    },
+    {
+      "soru": "Toplam Kapsamlı Gelirin Dağılımı 2025 yılında ne kadar oldu?",
+      "gold": "-104.311.848 Milyon TL",
+      "pred": "-1.000.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Bu dönemde Esas Faaliyetlerden Diğer Gelirler ne kadar oldu?",
+      "gold": "154.528.837 TL",
+      "pred": "4.117.476.020",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden Esas Faaliyetlerden Diğer Giderler 2025 yılında -84.368 TL olarak hesaplandı?",
+      "gold": "Esas Faaliyetlerden diğer giderlerin hesaplanması için kullanılan bir modelin değişmesi ve bu modelin uygulanması sırasında ortaya çıkan hatalar",
+      "pred": "Esas Faaliyetlerden Diğer Giderler 2025 yılında -84.368 TL olarak hesaplandı, çünkü 2025 yılındaki esas faaliyetlerde gelen ve kaynaklanan zararlar ve diğer kapsamlı gelir",
+      "rouge1": 0.2182,
+      "rougeL": 0.1818,
+      "bleu": 0.0208
+    },
+    {
+      "soru": "Nasıl değişti Finansman Faaliyetlerinden Sağlanan Net Nakit?",
+      "gold": "57.037.243 TL (önceki yıla göre %15.3 artışı)",
+      "pred": "57.037.243",
+      "rouge1": 0.4,
+      "rougeL": 0.4,
+      "bleu": 0.0004
+    },
+    {
+      "soru": "100.000 ile 985.818 arasında olan bakiyeler ne?",
+      "gold": "Bu bakiyeler şirketin cari dönemindeki bakiye tutarıdır.",
+      "pred": "-498.412",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden arttı/azaldı? 2024 yılında 66.675 TL ile 2025 yılında 104.627 TL arasında artış nasıl oldu?",
+      "gold": "2024 yılında 66.675 TL ile 2025 yılında 104.627 TL arasında artış, %56.6'lık bir artışa işaret eder.",
+      "pred": "Artış",
+      "rouge1": 0.069,
+      "rougeL": 0.069,
+      "bleu": 0
+    },
+    {
+      "soru": "Muhasebe kayıtları ile uyumlu olan doğrulama mektupları nasıl alınır?",
+      "gold": "Muhasebe kayıtları ile uyumlu olan doğrulama mektupları müşterilerden alınır.",
+      "pred": "Dönem sonuna kadar tutulan sınırsız örneklere ilişkin maddi ve non-maddi maddelerin tahmin edilen değerlerine ilişkin maddi ve non-maddi maddelerin tahmin edilen değerlerine ilişkin maddi ve non-maddi",
+      "rouge1": 0.0385,
+      "rougeL": 0.0385,
+      "bleu": 0
+    },
+    {
+      "soru": "Konsolide Olmayan Finansal Tabloların Bağımsız Denetimi ne zaman tamamlandı?",
+      "gold": "13.02.2026",
+      "pred": "2025",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Arazi ve Arsalar toplamı ne kadar?",
+      "gold": "2.032.049",
+      "pred": "2.032.049",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Ara hesap dönemine ait özet faaliyet raporu ne kadar uzun sürdü?",
+      "gold": "1 ay",
+      "pred": "Ara hesap dönemine ait özet faaliyet raporu 1 Ocak - 31 Mart 2026",
+      "rouge1": 0.1333,
+      "rougeL": 0.1333,
+      "bleu": 0.0155
+    },
+    {
+      "soru": "Yönetimin işletmenin sürekliliği esasını kullanmasının uygunluğu hakkında sonuca varılmaktadır.",
+      "gold": "Evet, yönetimin işletmenin sürekliliği esasını kullanmasının uygunluğu hakkında sonuca varılmaktadır. Bu nedenle, Grup'un sürekliliğini devam ettirme kabiliyetine ilişkin ciddi şüphe oluşturabilecek olay veya şartlarla ilgili önemli bir belirsizliğin mevcut olup olmadığı hakkında sonuca varılmaktadır.",
+      "pred": "Evet, bu durumda, yönetimin sürekliliğini devam ettirmek için gereken uygun bir sonucun olup olmadığını kontrol etmek gerekir.",
+      "rouge1": 0.3684,
+      "rougeL": 0.2632,
+      "bleu": 0.0118
+    },
+    {
+      "soru": "Konsolide finansal tabloların bağımsız denetimi neye dayanır?",
+      "gold": "Bağımsız Denetim Standartları'na ve Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurumu (KGK) tarafından yayımlanan Türkiye Denetim Standartları'nın bir parçası olan Bağımsız Denetim Standartları'na (BDS'lere) uygun olarak yürütülmüştür.",
+      "pred": "Bağımsız denetimle ilgili yasa ve anlatım ile uygun olarak yapılmıştır.",
+      "rouge1": 0.2903,
+      "rougeL": 0.2903,
+      "bleu": 0.0097
+    },
+    {
+      "soru": "Neden Yatırımların net nakit akışı -27.476.857'dir?",
+      "gold": "Yatırım faaliyetteki borçlar ve menkul değerler ile ilgili olarak bu düşüş occurred.",
+      "pred": "Yatırımların net nakit akışı 27.476.857'ye neden olan önemli bir faktör, şirketin banka ile yapılan faaliyetlerden elde ettiği verim ve zararlar olup olmadığını göstermektedir.",
+      "rouge1": 0.16,
+      "rougeL": 0.12,
+      "bleu": 0.0098
+    },
+    {
+      "soru": "Nasıl değişti sermaye?",
+      "gold": "Sermaye 1.359.567 TL'den 3.554.582 TL'ye yükseldi.",
+      "pred": "Sermaye 2025 yılında 34,68 milyon TL olarak belirlendi.",
+      "rouge1": 0.25,
+      "rougeL": 0.1667,
+      "bleu": 0.0278
+    },
+    {
+      "soru": "Diğer Karşılıklara İlişkin Ödemeler",
+      "gold": "-6.200",
+      "pred": "-5.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Nasıl değişti şirketin karıllığı?",
+      "gold": "Şirketin karıllığı %38.999'den -38.999'a düştü.",
+      "pred": "Karıllık, 2024 yılında 12.907.506 TL olarak arttı.",
+      "rouge1": 0.1667,
+      "rougeL": 0.1667,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden arttı Ertelenmiş Vergi Yükümlülüğüne 8.796.230'den daha fazla bir artış var?",
+      "gold": "Vergi yükümlülüğü artışı, vergi mükellefleri tarafından yapılan değişikliklere bağlı olarak gerçekleşmektedir.",
+      "pred": "Artış",
+      "rouge1": 0.087,
+      "rougeL": 0.087,
+      "bleu": 0
+    },
+    {
+      "soru": "TMS 29 uygulaması konsolide finansal tablolarda yaygın ve tutarsal olarak önemli etkiye sahiptir.",
+      "gold": "Evet, TMS 29 uygulaması konsolide finansal tablolarda önemli bir etkiye sahiptir.",
+      "pred": "Evet, TMS 29 uygulaması konsolide finansal tablolarda yaygın ve tutarsal olarak önemli etkiye sahip.",
+      "rouge1": 0.6923,
+      "rougeL": 0.6923,
+      "bleu": 0.4605
+    },
+    {
+      "soru": "Genel Yönetim Giderleri 12 ayda ne kadar bir tutar alındı?",
+      "gold": "430.939.145",
+      "pred": "-430.939.145",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Hangi faktörler Dönem Net Karı (Zararı)'nın artmasına neden oldu?",
+      "gold": "Dönem Net Karı (Zararı)'nın artması, Amortisman ve İtfa Gideri ile İlgili Düzeltmeler'in artmasıyla ilgiliydi.",
+      "pred": "Dönem Net Karı (Zararı) artışı, şirketin finansal performansının iyileştirilmesine yol açtı.",
+      "rouge1": 0.3684,
+      "rougeL": 0.3684,
+      "bleu": 0.071
+    },
+    {
+      "soru": "Bu dönemde şirketin genel performansı nasıl oldu?",
+      "gold": "Grup'un 01/01/2022–31/12/2022 hesap dönemine ilişkin tam set konsolide finansal tabloları hakkında olumlu görüş bildirmiş bulunuyoruz.",
+      "pred": "Bu dönemde şirketin genel performansı iyih oldu.",
+      "rouge1": 0.0606,
+      "rougeL": 0.0606,
+      "bleu": 0
+    },
+    {
+      "soru": "Hangi faktörler Dönem Karı (Zararı)'nın artmasına neden oldu?",
+      "gold": "Dönem Net Karı (Zararı) ile ilgili Düzeltmeler ve Amortisman ve İtfa Gideri ile ilgili Düzeltmeler",
+      "pred": "Dönem Karı (Zararı) artışı, şirketin finansal performansının iyileştirilmesine yol açtı.",
+      "rouge1": 0.2353,
+      "rougeL": 0.2353,
+      "bleu": 0.03
+    },
+    {
+      "soru": "İlişkili Taraflardan Ticari Alacaklar ne kadar?",
+      "gold": "24.471",
+      "pred": "13.787",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden arttı/azaldı?",
+      "gold": "Bununla birlikte, bu husus tarafımızca kilit denetim konusu olarak belirlenmiştir.",
+      "pred": "Grup yönetimi ile görüşmeler yapılarak geleceğe yönelik planlar üzerindeki görüşlerine dikkat etmemekle birlikte, bu görüşlerin grup yönetimi tarafından oluşturulan ve sunulan bilgilere ve bilgilerdeki eksikliklere neden ol",
+      "rouge1": 0.1132,
+      "rougeL": 0.1132,
+      "bleu": 0.0148
+    },
+    {
+      "soru": "Muallak tazminatlar karşılığı (-) ne kadar oldu?",
+      "gold": "0",
+      "pred": "-1.027.584",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Türev Finansal Yükümlülüklerin Gerçeğe Uygun Değer Farkı diğer Kapsamlı Gelire Yansıtılan Kısmı ne kadar?",
+      "gold": "407.103",
+      "pred": "14.607.734",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Dönem 2022-2023'te şirketin net varlıkları ne kadar oldu?",
+      "gold": "3.128.870.121",
+      "pred": "1,712.132.121",
+      "rouge1": 0.25,
+      "rougeL": 0.25,
+      "bleu": 0
+    },
+    {
+      "soru": "Bağımsız Denetçinin Yıllık Faaliyet Raporunun Bağımsız Denetimine İlişkin Sorumluluğu neye kadar önlenebilir?",
+      "gold": "Yılda en fazla bir kez",
+      "pred": "Bağımsız denetçilerin bağımsız denetiminin bağımsız denetimlerine ilişkin sorumluluğunu oluşturur.",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Dönem karı veya zararı ne kadar arttı?",
+      "gold": "19.425.013.374 - 12.720.262.824 = 6.704.750.550",
+      "pred": "-1.000.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Sürdürülen Faaliyetlerden Pay Başına Kazanç (Zarar) 4'ünde ne kadar bir tutarla karşılaşıyor?",
+      "gold": "2,92690000",
+      "pred": "1.000.000 TL",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Gelir Tablosu'ndaki Kazanılmış Primler (reasürör payı düşülmüş olarak) ne kadar arttı?",
+      "gold": "5",
+      "pred": "19.170.475.759",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Ara dönem faaliyet raporu Grup yönetiminin sorumluluklarından biridir?",
+      "gold": "Evet, ara dönem faaliyet raporu Grup yönetiminin sorumluluklarından biridir.",
+      "pred": "Grup yönetiminin sorumluluklarından biridir.",
+      "rouge1": 0.6667,
+      "rougeL": 0.6667,
+      "bleu": 0.2865
+    },
+    {
+      "soru": "2.701.875.472 rakamının neye corresponding?",
+      "gold": "Bu rakam şirketin dış ticaret işlemleriyle ilgili verdikleri teminat mektuplarından biridir.",
+      "pred": "Bu rakam, Garantiler ile Teminat Mektupları arasındaki farkı gösterir.",
+      "rouge1": 0.3333,
+      "rougeL": 0.3333,
+      "bleu": 0.0192
+    },
+    {
+      "soru": "Mal ve Hizmet Satışlarından Doğan Sözleşme Yükümlülükleri ne kadar?",
+      "gold": "2.700.315",
+      "pred": "1.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Bu dönemin genel performansı neydi?",
+      "gold": "Bu dönemin genel performansı iyi oldu çünkü hasılat arttı ve giderler azaldı.",
+      "pred": "Bu dönemin genel performansı 2025 yılında 9,1% arttı.",
+      "rouge1": 0.4615,
+      "rougeL": 0.4615,
+      "bleu": 0.2097
+    },
+    {
+      "soru": "Nakit ve Nakit Benzerleri'ne iliskin enflasyon etkisinin ne kadar olduğu?",
+      "gold": "-30.450.344 TL",
+      "pred": "-45.443.721 - 85.079.591",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Araflardan diğer Alacaklar toplamı ne kadar?",
+      "gold": "2.660.109",
+      "pred": "2.660.109",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Stoklardaki Azalışlar (Artışlar) ile İlgili Düzeltmeler ne kadar oldu?",
+      "gold": "137.203",
+      "pred": "-1.859",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Kontrol Gücü Olmayan Paylar ne kadar oldu?",
+      "gold": "18.599.856 TL",
+      "pred": "17.202.279",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Önceki Dönemde ne kadar olan nakit ve nakit benzeri varlıkları vardı?",
+      "gold": "83.369.946 TL",
+      "pred": "18,67",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "11.736.312 ile 1.074.765.003 arasındaki fark ne?",
+      "gold": "1.038.128.691",
+      "pred": "-11.736.312",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Bağlı Ortaklıklarda Kontrol Kaybı ile Sonuçlanmayan Pay Oranı Değişikliklerine Bağlı Artış/Azalış Ne Kadar Oldu?",
+      "gold": "0",
+      "pred": "1.527.384 TL",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Dönem Sonu Bakiyeler 44.951.051",
+      "gold": "Bu bakiye, önceki dönemin sonuna ait olan bakiyelerin değişimine bağlı olarak değişir.",
+      "pred": "Dönem Sonu Bakiyeler, 31 Aralık 2023 tarihli konsolide finansal tabloların toplam bakiyesi ile ilgili önemli bir şekilde değişti.",
+      "rouge1": 0.1463,
+      "rougeL": 0.1463,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden arttı/azaldı? Banka Kredileri",
+      "gold": "Banka Kredileri azaldı çünkü şirketin finansal durumları kötüleşti ve kredi verme yetkisi kalmadı. Bu dönemde banka kredileri 469.354'den 91.294'a decreased.",
+      "pred": "Banka kredilerinin artışı, banka kredilerinin 2022 yılında 1.000 milyon TL'ye itti.",
+      "rouge1": 0.093,
+      "rougeL": 0.093,
+      "bleu": 0.0099
+    },
+    {
+      "soru": "Sigortalılara Krediler (İkrazlar) Karşılığı nedir?",
+      "gold": "0",
+      "pred": "-131.715.095",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Uçakların gövde, motor ve sınırlı ömre sahip parçalarının iade anındaki fiili durumu ile sözleşmelerde öngörülen durum arasındaki farkın kiralama şirketine tazmin edilebilmektedir.",
+      "gold": "Evet, bu fark kiralama şirketine tazmin edilebilir.",
+      "pred": "Evet, bu durum, kira süresi boyunca, ilgili döneme gerçekleşen uçuş saati verilen para ile birlikte kullanılıp kullanılmadığına ilişkin belirlenen belirsizliklerin de dahil olmak üzere, kira süresi boy",
+      "rouge1": 0.0889,
+      "rougeL": 0.0889,
+      "bleu": 0.0148
+    },
+    {
+      "soru": "Pay Başına Kazanç (Zarar) için en düşük değer nedir?",
+      "gold": "-0,80000000",
+      "pred": "-0,08000000",
+      "rouge1": 0.5,
+      "rougeL": 0.5,
+      "bleu": 0
+    },
+    {
+      "soru": "Nakit Akış Tablosu'ndaki Özkaynaklar Değişim Tablosu'na göre 2024 yılında şirketin özkaynağı ne kadar oldu?",
+      "gold": "110.860.179",
+      "pred": "-57.500",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Gerçeğe Uygun Değerdeki Değişiklikler ne kadar arttı?",
+      "gold": "0",
+      "pred": "-1.287.345",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Nasıl değişti bankacılık gelirleri?",
+      "gold": "Bankacılık gelirleri 2019 yılında 54.412.342 ile 2022 yılında 54.373.301 arasında değiştirdi.",
+      "pred": "Bankacılık gelirleri 2022 yılında 12,182.982 TL'ye, 2021 yılında 10,301.839 TL'ye arttı.",
+      "rouge1": 0.5106,
+      "rougeL": 0.4681,
+      "bleu": 0.0596
+    },
+    {
+      "soru": "30 Haziran 2025 tarihi itibarıyla hazırlanan ara dönem faaliyet raporunda yer alan konsolide finansal bilgilerin, sınırlı denetimden geçmiş ve 8 Ağustos 2025 tarihli sınırlı denetim raporuna konu olan ara dönem özet konsolide finansal tablolar ile tutarlı olup olmadığının sınırlı denetimini yapmakla görevlendirilmiş bulunmuştur.",
+      "gold": "Tutarlı olup olmadığının açıklanmasıdır.",
+      "pred": "Bu faaliyet raporu, sınırlı denetiminden önce hazırlanmıştır.",
+      "rouge1": 0.1905,
+      "rougeL": 0.1905,
+      "bleu": 0
+    },
+    {
+      "soru": "Çalışanlara sağlanan faydalara ilişkin karşılıklar kapsamında yapılan ödemelerde -391.780 ile -665.049 arasındaki fark ne?",
+      "gold": "273.269",
+      "pred": "-253.269",
+      "rouge1": 0.5,
+      "rougeL": 0.5,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden Pay Bazlı İşlemler Nedeniyle Meydana Gelen Artış (Azalış) decreased?",
+      "gold": "Bağlı Ortaklıklarda Kontrol Kaybı ile Sonuçlanmayan Pay Oranı Değişikliklerine",
+      "pred": "Pay bazlı işlemlerin net artışı, 2022 yılında -19.113 TL'ye, 2021 yılında -19.074 TL'ye düşüktü.",
+      "rouge1": 0.1579,
+      "rougeL": 0.1053,
+      "bleu": 0.0143
+    },
+    {
+      "soru": "Devam Eden Riskler Karşılığı (-) ne kadar?",
+      "gold": "0",
+      "pred": "0",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Önceki yıla göre Sosyal Yardım Sandığı Varlık Açıklarının değişimi nedir?",
+      "gold": "Bu dönemde şirketin genel performansı nasıldı? Sosyal Yardım Sandığı Varlık Açıkları 0 ile 1.539.709.699 arasında değişti.",
+      "pred": "-1.000.000 TL",
+      "rouge1": 0.0645,
+      "rougeL": 0.0645,
+      "bleu": 0
+    },
+    {
+      "soru": "Nasıl değişti cari vergi borcu?",
+      "gold": "Cari vergi borcu 2022 yılında 130.058'dir. 2023 yılında bu değer 35.992.391'e yükseldi.",
+      "pred": "35.992.391",
+      "rouge1": 0.2308,
+      "rougeL": 0.2308,
+      "bleu": 0
+    },
+    {
+      "soru": "Konsolide Edilmeyenler neye denir?",
+      "gold": "Konsolide Edilmeyenler, şirketin mali durumunu ve değerlerini konsolide edilemeyen bir şekilde değerlendirmesi gereken mallar ve varlıkları ifade eder.",
+      "pred": "Konsolide Edilmeyenler, şirketin konsolide edilmiş bir yapıda olup olmadığını gösterir.",
+      "rouge1": 0.2941,
+      "rougeL": 0.2941,
+      "bleu": 0.0533
+    },
+    {
+      "soru": "Nasıl değişti konsolide finansal tabloların bağımsız denetiminde en çok önem arz eden konular?",
+      "gold": "Kilit denetim konuları, mesleki muhakememize göre cari döneme ait konsolide financesal tablolarin independent denetiminde en çok importance arz eden konulardır.",
+      "pred": "Konsolide finansal tabloların bağımsız denetimde en çok önem arz eden konular, konsolide finansal tabloların bağımsız denetimine ilişkin sorumluluklar, konsolide finansal tabl",
+      "rouge1": 0.2353,
+      "rougeL": 0.1961,
+      "bleu": 0.0289
+    },
+    {
+      "soru": "Müşteri Sözleşmelerinden Doğan Varlıklar ne kadar?",
+      "gold": "0",
+      "pred": "1,17",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Temettü Ödemeleri ne kadar?",
+      "gold": "-431.045",
+      "pred": "1.000.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Diğer Esas Faaliyetlerden Borçlar 2.371.000.146'dan az mı?",
+      "gold": "Evet, 2.371.000.146'den az",
+      "pred": "Eski ve yeni birlikte çalışılan projeleri içerir",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "İşletmenin Kendi Paylarını ve diğer Özkaynağa Dayalı Araçlarını Almasıyla İlgili Nakit Çıkışları -771.035 = ?",
+      "gold": "-771.035",
+      "pred": "-771.035",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Grup'un muhasebe politikalarına ilişkin bilgiler nerede bulunur?",
+      "gold": "Dipnot 2.3 ve Dipnot 16'de açıklanmıştır.",
+      "pred": "Grup'un muhasebe politikalarının belirlenmesi, muhasebe politikalarının uygulanması ve muhasebe politikalarının uygulanması hakkında bilgi vermektedir.",
+      "rouge1": 0.0606,
+      "rougeL": 0.0606,
+      "bleu": 0.0143
+    },
+    {
+      "soru": "Net Kar 2024 yılında ne kadar oldu?",
+      "gold": "1.804.567",
+      "pred": "1.537.689",
+      "rouge1": 0.3333,
+      "rougeL": 0.3333,
+      "bleu": 0
+    },
+    {
+      "soru": "Finansal Yatırımlar ne kadar?",
+      "gold": "604.205.625",
+      "pred": "1.000.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Konsolide finansal tabloların sunumu, yapısı ve içeriği ile temelini oluşturan işlem ve olayları gerçeğe uygun sunumu sağlayacak şekilde yansıtıp yansıtmadığı değerlendirilmektedir.",
+      "gold": "Konsolide finansal tabloların sunumu, yapısı ve içeriği ile temelini oluşturan işlem ve olayları gerçeğe uygun sunumu sağlayacak şekilde yansıtıp yansıtmadığı değerlendirilmektedir. Bu durum, denetim sırasında tespit edilen önemli iç kontrol eksiklikleri dâhil olmak üzere, bağımsız denetimin planlanan kapsamı ve zamanlaması ile önemli denetim bulgularını üst yönetimden sorumlu olanlara bildirmekteyiz.",
+      "pred": "Bu sayfada sunulan konsolide finansal tablolar, genel sunumu, yapısı ve içeriğiyle ilgili önemli bir önem taşır. Bu sayfada sunulan konsolide finansal tablolar, genel sunumu, yapısı ve",
+      "rouge1": 0.28,
+      "rougeL": 0.24,
+      "bleu": 0.0183
+    },
+    {
+      "soru": "T.C. Merkez Bankasına cirolar ne kadar oldu?",
+      "gold": "0",
+      "pred": "0",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Proje Halindeki Yatırım Amaçlı Gayrimenkuller ne kadar idi?",
+      "gold": "1.873.100",
+      "pred": "1.873.100",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Yatırım Faaliyetlerinden Gelirler'ne ait olan rakam ne kadar?",
+      "gold": "5.356.278",
+      "pred": "16.871",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Pay Bazlı İşlemler Nedeniyle Meydana Gelen Artış (Azalış) Ne Dir?",
+      "gold": "Bağlı Ortaklık Edinimi veya Elden Çıkarılması, Bağlı Ortaklıklarda Kontrol Kaybı ile Sonuçlanmayan Pay Oranı Değişikliklerine Bağlı Artış/Azalış",
+      "pred": "-1.290.395",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Esas Faaliyet Kari (Zararı) ne kadar oldu?",
+      "gold": "3.632.144",
+      "pred": "17.705.459",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Bu dönemde şirketin genel performansı ne kadar?",
+      "gold": "Şirketin genel performansı 2023 yılında iyi bir şekilde gelişti ve varlıklarının artışına yol açtı. Şirket, Finansal Yatırımların ve Maddi Duran Varlıkların artmasıyla birlikte, Peşin Ödenmiş Giderlerin azaldığı görülmektedir.",
+      "pred": "Genel performansı iyih",
+      "rouge1": 0.0833,
+      "rougeL": 0.0833,
+      "bleu": 0.0
+    },
+    {
+      "soru": "5.5 ile 4.200.000 arasında olan bakiye nasıl değişti?",
+      "gold": "Bakiyeler 11.880 ve 0 arasında değişti.",
+      "pred": "Bakiyenin 5.5'e kadar biraz azaldı.",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Yıllık faaliyet raporunu hazırlamakla görevli olan Grup yönetimi, hangi tarihleri izleyen ilk üç ay içinde raporunu genel kurula sunar?",
+      "gold": "Bilanço gününden izleyen ilk üç ay",
+      "pred": "2019-2020",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "İkramiye ve İndirimler Karşılığı (-) ne kadar oldu?",
+      "gold": "-0,00%",
+      "pred": "0",
+      "rouge1": 0.6667,
+      "rougeL": 0.6667,
+      "bleu": 0
+    },
+    {
+      "soru": "Faaliyetlerle İlgili Diğer Alacaklardaki Azalış (Artış) ile İlgili Düzeltmeler ne oldu?",
+      "gold": "727.469",
+      "pred": "-1.271.250",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Grup'un 1 Ocak 2024 - 31 Aralık 2024 hesap dönemine ilişkin yıllık faaliyet raporu başkası tarafından denetlenmiş mi?",
+      "gold": "Evet, Grup'un 1 Ocak 2024 - 31 Aralık 2024 hesap dönemine ilişkin yearly faaliyet raporu başka bir bağımsız denetçi tarafından denetlenmiş ve 10 Mart 2025 tarihinde bu faaliyet raporunun uygunluğu hakkında olumlu görüş verilmiştir.",
+      "pred": "Evet, bu rapora Grup'un yönetimi tarafından denetlenmiştir.",
+      "rouge1": 0.2807,
+      "rougeL": 0.2456,
+      "bleu": 0.001
+    },
+    {
+      "soru": "Nasıl değişti Nakit ve Nakit Benzerleri Dönem Başi 2024 ile 2023?",
+      "gold": "Dönem başı nakit ve nakit benzerleri 2024 yılında 1.124 TL'den 2023 yılında 1.380 TL'ye yükseldi.",
+      "pred": "Dönem Baş 2024 ile 2023 arasında nakit ve nakit benzerleri net artışı (-) 5,12",
+      "rouge1": 0.4878,
+      "rougeL": 0.3415,
+      "bleu": 0.1904
+    },
+    {
+      "soru": "30 Eylül 2025 tarihli konsolide olmayan bilançonun net karı ne kadar oldu?",
+      "gold": "1 Milyar TL",
+      "pred": "-4,6 million TL",
+      "rouge1": 0.2857,
+      "rougeL": 0.2857,
+      "bleu": 0.1136
+    },
+    {
+      "soru": "16. Dönem için diğer alçaklar ne kadar oldu?",
+      "gold": "553.173",
+      "pred": "145.845",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Beklenen kredi zararlarının hesaplanması sürecinde kullanılan bilgi setlerinin doğruluğu ve tamlığının değerlendirilmesi ne kadar sürdü?",
+      "gold": "Bu dönemde",
+      "pred": "Bu bilgi setleri, Grup iş modeline uygunluğunu değerlendirmeye yardımcı olur.",
+      "rouge1": 0.125,
+      "rougeL": 0.125,
+      "bleu": 0.0211
+    },
+    {
+      "soru": "Toplam Kapsamlı Gelir (Gider) 2025 yılında ne kadar oldu?",
+      "gold": "254.933",
+      "pred": "241.002",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Önceki Dönem net karı ve zararı neydi?",
+      "gold": "19.425.013.374 TL, 12.720.262.824 TL",
+      "pred": "19.425.013.374",
+      "rouge1": 0.5714,
+      "rougeL": 0.5714,
+      "bleu": 0.0089
+    },
+    {
+      "soru": "Dönem Karının Peşin Ödenen Vergi ve diğer Yükümlülükleri (-) ne kadar oldu?",
+      "gold": "-2.340.895.465",
+      "pred": "-1.000.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Nasıl değişti finansal kiralama alçakları?",
+      "gold": "Finansal Kiralama Alacakları 5.449.938 ile 5.607.672 arasında değiştirdi.",
+      "pred": "Finansal kiracılar, 4.2 ve 12 yılında 5.449.938 TL ile 5.607.672 TL arasında bir artış oldu.",
+      "rouge1": 0.5128,
+      "rougeL": 0.5128,
+      "bleu": 0.0351
+    },
+    {
+      "soru": "4.2 döneminde tedavi giderlerine ilişkin SGK'ya borçlar ne kadarı oldu?",
+      "gold": "0",
+      "pred": "15.378.697 TL",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden arttı/azaldı Net Dönem Karı veya Zararı?",
+      "gold": "Net Dönem Karı veya Zararı, önceki Dönem Karı veya Zararından daha az oldu ve bu azalma, daha fazla Satışların Maliyeti ve Genellikle Esas Faaliyetlerden Diğer Giderler ile ilgili faktörlerin etkisinin net bir sonucu olarak gerçekleşti.",
+      "pred": "Dönem Karı veya Zararı, 2022 yılında 17.673.722 TL'ye 7.765.807 TL'ye azaldı.",
+      "rouge1": 0.1562,
+      "rougeL": 0.1562,
+      "bleu": 0.0265
+    },
+    {
+      "soru": "Neden Finansman Gelirleri 2025 yılında 0 olarak hesaplandı?",
+      "gold": "Finansman gelirlerinin hesaplanması için kullanılan bir modelin değişmesi ve bu modelin uygulanması sırasında ortaya çıkan hatalar",
+      "pred": "Finansman Gelirleri 2025 yılında 0 olarak hesaplanma sebebi, 2025 yılına kadar 1998-2024 yılları arasında 1998 yılına kadar olan süre zararlar olup olmadığını kontrol etmek için",
+      "rouge1": 0.1695,
+      "rougeL": 0.1017,
+      "bleu": 0.009
+    },
+    {
+      "soru": "Nasıl değişti finansal varlıkların gerçeğe uygun değer kayıpları (kazançları)?",
+      "gold": "Bu dönemde finansal varlıkların gerçeğe uygun değer kayıpları (kazançları) 1.645.184'e yükseldi.",
+      "pred": "-2.554.247",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Nasıl bir finansal değerleme yöntemi kullanıldı?",
+      "gold": "Gerçeğe uygun değer hesaplamasının piyasada kolaylıkla gözlenemeyen verileri içermesi, hesaplamanın nihai büyüme oranı, ağırlıklı ortalama sermaye maliyeti tahminlerine, gelecek 10 yıllık projeksiyonların başarılmasına bağlı olması nedenleri ve ilgili finansal varlıkların konsolide finansal tablolar için önemli olması sebebi ile, tarafımızca bir kilit denetim konusu olarak değerlendirilmiştir.",
+      "pred": "Gerçeğe uygun değer hesaplaması",
+      "rouge1": 0.1772,
+      "rougeL": 0.1772,
+      "bleu": 0.0
+    },
+    {
+      "soru": "Dönem Karının (Zararının) Dağılımı ne kadar?",
+      "gold": "2.379.833.822",
+      "pred": "2.379.833.822",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Gelirin net tutarını neye göre hesaplanır?",
+      "gold": "Gelirin net tutarını primler, reasürör payı ve diğer faktörler üzerinden hesaplanır.",
+      "pred": "Reasürör payı düşülmüş olara kadar",
+      "rouge1": 0.32,
+      "rougeL": 0.32,
+      "bleu": 0.0162
+    },
+    {
+      "soru": "Türev Ürünler Sonucunda Oluşan Zararlar ne kadar oldu?",
+      "gold": "-201.269.016",
+      "pred": "0",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden uzun vadeli borçlanmaların toplamı 859'dan azdır?",
+      "gold": "Borçlanmaların toplamı daha azdır çünkü şirketin uzun vadeli borçları daha azdır.",
+      "pred": "Bu dönemde, uzun vadeli borçlanmaların toplamı 859'ye düşmektedir.",
+      "rouge1": 0.4138,
+      "rougeL": 0.2759,
+      "bleu": 0.0447
+    },
+    {
+      "soru": "Neden arttı/azaldi cari dönemin nakit akışları?",
+      "gold": "Cari dönemin nakit akışları, bankacılık faaliyette nakit akışlar ile diğer finansal varlıkların değerleme ve sınıflandırma geliri/giderleri arasında değişti.",
+      "pred": "Çari ve diğer konsolide finansal tabloların açıklığına bağlı olarak, 2022 yılında nakit akışları arttı",
+      "rouge1": 0.3571,
+      "rougeL": 0.1786,
+      "bleu": 0.0152
+    },
+    {
+      "soru": "DÖNEM BAŞI NAKİT VE NAKİT BENZERLERİ ne kadar oldu?",
+      "gold": "46.258.554.416",
+      "pred": "-1.000.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden arttı Sermaye Azaltımı?",
+      "gold": "Sermaye Azaltımı, şirketin finansal durumunu iyileştirmek ve daha verimli bir şekilde faaliyet göstermek için yapılan bir decisiondir.",
+      "pred": "Sermaye azaltımı, sermaye kazançları ve riskleri en iyi şekilde yönetilmek için gerekli olan önemli bir önemi vardır.",
+      "rouge1": 0.3636,
+      "rougeL": 0.3636,
+      "bleu": 0.0172
+    },
+    {
+      "soru": "Satışlara İlişkin Nakit Girişleri ne kadar oldu?",
+      "gold": "14.480",
+      "pred": "14.480",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "5.2.3 ne kadar?",
+      "gold": "57.354.932",
+      "pred": "9.424.506",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Nasıl değişti cari dönemin bakiyeleri?",
+      "gold": "Cari dönemin bakiyeleri 2025 yılında 243.270.950 ile 2024 yılında 366.216.071 arasında değişti.",
+      "pred": "Bakiyeler, 2019 yılında 3.547.687 TL olarak arttı.",
+      "rouge1": 0.1714,
+      "rougeL": 0.1714,
+      "bleu": 0.0162
+    },
+    {
+      "soru": "NET FAİZ GELİRİ VEYA GİDERİ ne kadar oldu?",
+      "gold": "43.086.086",
+      "pred": "43.086.086",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "2025 yılına kadar olan Grup'ın konsolide satış revenuesi ne kadar oldu?",
+      "gold": "10.000.000 $",
+      "pred": "1,1 Milyon TL",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Nasıl değişti özkaynaklar değişim tablosunda bakiyeler?",
+      "gold": "Özkaynaklar Değişim Tablosu'nda bakiyeler 2.200.000 ile 3.612.388 arasında değiştirir.",
+      "pred": "Özkaynaklar değişim tablosunda bakiyeler 2023 yılında 1.547.689 TL olarak gösteriliyor.",
+      "rouge1": 0.3333,
+      "rougeL": 0.3333,
+      "bleu": 0.0251
+    },
+    {
+      "soru": "Dönem Sonu Bakiyeler ne kadar oldu?",
+      "gold": "2.200.000",
+      "pred": "1.257.386",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Dava ve/veya Ceza Karşılıkları (İptali) ile İlgili Düzeltmeler ne kadar oldu?",
+      "gold": "-4.016",
+      "pred": "-1.047.090",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Tutulan Duran Varlıkların finansal yatırımları ne?",
+      "gold": "0",
+      "pred": "0",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Döngüde olan Nakit Akım Tablosu ne kadar?",
+      "gold": "31.657.778.028",
+      "pred": "10.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Doğan Varlıklarındaki Azalış (Artış) ne kadar oldu?",
+      "gold": "709.360 TL",
+      "pred": "-709.360",
+      "rouge1": 0.8,
+      "rougeL": 0.8,
+      "bleu": 0
+    },
+    {
+      "soru": "10.712.212 TL ile 2.940.962 TL arasında ne tür gelirden bahsetti?",
+      "gold": "Bu rakamlar MLI Gelir (Gider) tablosunda bulunan kar veya zarar ve diğer kapsamlı gelir tablosu için geçerlidir.",
+      "pred": "Bu gelirler, şirketin finansal tablolarına dahil edilmesiyle ilgili olarak, şirketin finansal durumunu açıklamak için kullanılan önemli bir faktör olup, şirketin finansal tablolarının doğru ve uygun şekilde oluşturulması için g",
+      "rouge1": 0.1356,
+      "rougeL": 0.1356,
+      "bleu": 0.0085
+    },
+    {
+      "soru": "Matematik Karşılıklar (-) neye corresponding?",
+      "gold": "0",
+      "pred": "-11.975.306.848",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Kazanılmamış Primler Karşılığında SGK Payı (+/-) 17 ne kadar oldu?",
+      "gold": "-104.970.503",
+      "pred": "-15.366",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Toplam Duran Varlıkların 2023 yılına göre değişimi ne?",
+      "gold": "Toplam Duran Varlıklar 2023 yılında 276.866.549.094'e yükseldi, bu yılki değer 213.808.263.691'dir.",
+      "pred": "-1.231.094.804",
+      "rouge1": 0.069,
+      "rougeL": 0.069,
+      "bleu": 0
+    },
+    {
+      "soru": "Stoklardaki artış (azalış) ne kadar oldu?",
+      "gold": "-4.977",
+      "pred": "5.756",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Maddi ve Maddi Olmayan Duran Varlıkların Satışından Kaynaklanan Nakit Girişleri",
+      "gold": "2.616",
+      "pred": "-5.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Grup'un 01/01/2025–31/12/2025 hesap dönemine ilişkin tam set konsolide finansal tabloları neye dayanır?",
+      "gold": "Tam Set Konsolide Finansal Tablolara İlişkin Denetçi Görüşümüz",
+      "pred": "Konsolide Finansal Tablolara İlişkin Bağımsız Denetim Kapsamına Ait Bağımsız Denetimler",
+      "rouge1": 0.4516,
+      "rougeL": 0.4516,
+      "bleu": 0.2627
+    },
+    {
+      "soru": "Özsermaye Değişim Tablosu'ndaki son bakiye 5.000.000.000'dir.",
+      "gold": "2025 yılında şirketin genel performansı iyi wasnı, ancak enflasyon düzeltme failleri nedeniyle net karı düşmüştür.",
+      "pred": "Ertelenmiş geliri (gideri) 2.374.689.000'dir.",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Nasıl değişti Net Dönem Karı?",
+      "gold": "Önceki döneme göre %19,7 arttı",
+      "pred": "Net Dönem Karı, 2025 yılında 34.678.977 TL olarak arttı.",
+      "rouge1": 0.1818,
+      "rougeL": 0.1818,
+      "bleu": 0
+    },
+    {
+      "soru": "Ara dönem konsolide olmayan finansal bilgilere ilişkin sınırlı denetim, neye dayanır?",
+      "gold": "Sınırlı Bağımsız Denetim Standardı (SBDS) 2410",
+      "pred": "Sınırlı Bağımsız Denetim Standardı (SBDS) 2410",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 1.0
+    },
+    {
+      "soru": "Önceki döneme göre ne kadar artmış/azalmış?",
+      "gold": "Sınırlı denetimimize göre ilişikteki ara dönem konsolide finansal bilgilerin, tüm importantes yönleriyle TMS 34 \"Ara Dönem Finansal Raporlama\" Standardı'na uygun olarak hazırlanmadığı kanaatine varmamıza sebep olacak herhangi bir husus dikkatimizi çekmemiştir. Önceki döneme göre bu dönemde şirketin genel performansı nasıldı?",
+      "pred": "105.273.468 TL",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Yatırım Faaliyetlerinden Giderler ne kadar oldu?",
+      "gold": "-739.055",
+      "pred": "-1.000.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "İlişkili Taraflardan Kısa Vadeli Borçlanmaların toplamı ne kadar?",
+      "gold": "0",
+      "pred": "469.354",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Konsolide 2025 dönemi için net nakit akışı ne kadar oldu?",
+      "gold": "181.095.694 TL",
+      "pred": "47.689.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Nasıl değişti finansal durum tablosu?",
+      "gold": "Finansal durum tablosunda varlıkların ve giderlerin değişimi, şirketin genel performansı hakkında bilgi vermektedir. Konsolide finansal tablolarının ve TTK ile Şirket esas sözleşmesinin finansal raporlamaya ilişkin hükümlerine uygun olmadığına dair önemli bir hususa rastlanmamıştır.",
+      "pred": "Finansal durum tablosu, 2022 yılında 5.798.000 TL olarak arttı.",
+      "rouge1": 0.0984,
+      "rougeL": 0.0984,
+      "bleu": 0.0035
+    },
+    {
+      "soru": "Futures Faiz Satım İşlemleri ne kadar oldu?",
+      "gold": "0",
+      "pred": "0",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Ara dönem konsolide finansal bilgilere ilişkin sınırlı denetim, Sınırlı Bağımsız Denetim Standardı (SBDS) 2410'a uygun olarak yürütülmüştür. Ara dönem finansal bilgilere ilişkin sınırlı denetim, foregoing standarda uygun olarak nasıl yürütüldü?",
+      "gold": "Sınırlı denetim, başta finans ve muhasebe konularından sorumlu kişiler olmak üzere ilgili kişilerin sorgulanması ve analitik prosedürler ile diğer sınırlı denetim prosedürlerinin uygulanmasından oluşur.",
+      "pred": "Sınır denetimlerinin sınırlı bir şekilde yürütülmesi, genellikle sınırlı bir şekilde yürütülen bir denetimde, bu denetimdeki tüm bilgilerin doğru ve tam olarak sunulması için gereken bir yeterliliği vardır",
+      "rouge1": 0.1728,
+      "rougeL": 0.1481,
+      "bleu": 0.0083
+    },
+    {
+      "soru": "İktisap Edilen İştirakler, Bağlı Ortaklıklar ve Birlikte Kontrol Edilen Ortaklıklar (İş Ortaklıkları) ne kadar Elden Çıkarladı?",
+      "gold": "-6.254.255",
+      "pred": "18.500.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Faaliyet BRÜT KÂRI önceki yıla göre nasıl değişti?",
+      "gold": "Net Faaliyet Kari (Zararı) 6.025.251 ile 3.920.350 arasında değişti.",
+      "pred": "-1,1",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "2025 TSRS Uyumlu Sürdürülebilirlik Raporu 2025 hesap dönemine ilişkin Entegre Faaliyet Raporu ile Türkiye Sürdürülebilirlik Raporlama Standartları'na uygun olarak hazırlanmış ve bağımsız denetimden geçmiştir.",
+      "gold": "Evet, rapor 2025 TSRS Uyumlu Sürdürülebilirlik Raporu ile Türkiye Sürdürülebilirlik Raporlama Standartları'na uygun olarak hazırlanmıştır.",
+      "pred": "Evet",
+      "rouge1": 0.0741,
+      "rougeL": 0.0741,
+      "bleu": 0
+    },
+    {
+      "soru": "2.346.885.523 ile 2.364.633.274 arasındaki fark ne?",
+      "gold": "2.346.885.523 ile 2.364.633.274 arasındaki fark 1.251.752.769 dir.",
+      "pred": "-17.747.751",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Kiralama İşlemlerinden Borçların toplamı ne kadar?",
+      "gold": "1.987.734",
+      "pred": "68.900",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Gelecekteki olay veya şartlar Grup'un sürekliliğini sona erdirebilir mi?",
+      "gold": "Vardığımız sonuçlar, bağımsız denetçi raporu tarihine kadar elde edilen denetim kanıtlarına dayanmaktadır. Bununla birlikte, gelecekteki olay veya şartlar Grup'un sürekliliğini sona erdirebilir.",
+      "pred": "Grup'un sürekliliğini sona erdirebilmek için, Grup'un sürekliliğini sona erdirene ilişkin tüm durumları ve durumunun anlatılması gerekir.",
+      "rouge1": 0.2667,
+      "rougeL": 0.2333,
+      "bleu": 0.0418
+    },
+    {
+      "soru": "Toplam Kapsamlı Gelirin Dağılımı'ndaki Kontrol Gücü Olmayan Paylar ne kadar oldu?",
+      "gold": "76",
+      "pred": "-6.017",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Muallak Tazminatlar Karşılığı (-) ne kadar?",
+      "gold": "-0",
+      "pred": "-1.027.345",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "İşletme Sermayesinde Gerçekleşen Değişimler",
+      "gold": "-2.304.891",
+      "pred": "-5.076",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Ertelenmiş Sigortacılık Üretim Giderleri ne kadar?",
+      "gold": "0",
+      "pred": "17.387",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden Nakit ve Nakit Benzerleri için 2025 yılına ait rakam arttı?",
+      "gold": "Nakit ve Nakit Benzerleri için 2025 yılına ait rakam arttı karena şirketin nakit durumunun iyileştirilmesi ve daha fazla para elde edilmesi.",
+      "pred": "Nakit ve Nakit Benzerleri için 2025 yılına ait rakamların artışı, şirketin nakit ve nakit benzerlerinin artması nedeniyle ortaya çıkan bir sonuc olarak, 2025 yılına ait nakit ve nakit",
+      "rouge1": 0.4746,
+      "rougeL": 0.4746,
+      "bleu": 0.2707
+    },
+    {
+      "soru": "Dönem 2022-2023'te şirketin genel performansı nasıl oldu?",
+      "gold": "Bu dönemde şirketin genel performansı iyi idi.",
+      "pred": "Genel performans, 2022 yılında 1.100.000 TL ile başlayıp, 2023 yılında 1.000.000 TL ile sona erdi.",
+      "rouge1": 0.1212,
+      "rougeL": 0.1212,
+      "bleu": 0
+    },
+    {
+      "soru": "Bu dönemde Vadeli Döviz Alım-Satım İşlemlerinin genel performansı nasıl?",
+      "gold": "Vadeli Döviz Alım-Satım İşlemleri'ndeki total girişler ve çıkışı arttı, bu dönemde şirketin genel performansı positive olarak görülmektedir.",
+      "pred": "Genel performans, 2023 yılında 116.147.757 TL ile 116.147.757 TL olan toplam alım-satım işlemiyle ilgili birlikte çalıştırılan ve 202",
+      "rouge1": 0.3103,
+      "rougeL": 0.2069,
+      "bleu": 0.0108
+    },
+    {
+      "soru": "Bu dönemde şirketin genel performansı nasıl?",
+      "gold": "Bu dönemde şirketin genel performansı iyi oldu ve Temettüler arttı, Borç Ödemelerine İlişkin Nakit Çıkışları azaldı.",
+      "pred": "Bu dönemde şirketin genel performansı iyih",
+      "rouge1": 0.4286,
+      "rougeL": 0.4286,
+      "bleu": 0.1435
+    },
+    {
+      "soru": "Uzman görüşüne dayanan münferit değerlendirme yapılan finansal varlıklar için kullanılan varsayım ve tahminlerin değerlendirilmesi ne kadar sürdü?",
+      "gold": "Bu dönemde",
+      "pred": "1.000.000 TL",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Türev Finansal Araçların Gerçeğe Uygun Değer Kayıpları (Kazançları) ile İlgili Düzeltmeler ne kadar oldu?",
+      "gold": "-3.668",
+      "pred": "0",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Dönem Başındaki Nakit ve Nakde Eşdeğer Varlıklar ne kadar oldu?",
+      "gold": "202.945.617",
+      "pred": "1.000.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Nasıl değişti şirketin sermaye bakiyeleri?",
+      "gold": "Sermaye bakiyeleri 25.000.000 ile 318.337.772 arasında değiştirdi.",
+      "pred": "Şirketin sermaye bakiyeleri, 2023 yılında 15.000.000 TL'ye arttı.",
+      "rouge1": 0.3704,
+      "rougeL": 0.2963,
+      "bleu": 0
+    },
+    {
+      "soru": "Konsolide finansal tabloların, açıklamalar dahil olmak üzere, genel sunumu, yapısı ve içeriği ile bu tabloların, temelini oluşturan işlem ve oluşturulan olasılık ne kadar belirlenmekte?",
+      "gold": "BDS'lere uygun olarak yürütülen bağımsız denetim boyunca mesleki muhakemeyi kullanmakta ve mesleki şüpheciliğimizi sürdürmekteyiz.",
+      "pred": "Bu tabloların, temelini oluşturan işlem ve oluşturulan olasılık belirtilmektedir.",
+      "rouge1": 0.0526,
+      "rougeL": 0.0526,
+      "bleu": 0.0138
+    },
+    {
+      "soru": "Maddi Varlıkların değeri ne kadar?",
+      "gold": "1.781.691.233",
+      "pred": "17.500.000 TL",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Bu dönemde şirketin genel performansı ne kadar oldu?",
+      "gold": "Dönem başı nakit ve nakit benzerleri 12.819.239 ile 9.384.819 arasında değişti. Bu dönemde şirketin genel performansı iyi bir şekilde gösterildi.",
+      "pred": "Bu dönemde şirketin genel performansı arttı.",
+      "rouge1": 0.3243,
+      "rougeL": 0.3243,
+      "bleu": 0.0737
+    },
+    {
+      "soru": "Nakit Çıkışları neye dayanıyor?",
+      "gold": "Kar Paylarındaki Değişimden Kaynaklanan Nakit Çıkışları",
+      "pred": "Nakit Çıkışları, işletmenin kendine paylar ve diğer özkaynağa dayalı araçları satışı ile ilgili olarak kaydedilen nakit girişleriyle ilgili olarak kaydedilmiştir.",
+      "rouge1": 0.2703,
+      "rougeL": 0.1622,
+      "bleu": 0.0096
+    },
+    {
+      "soru": "Özkaynaklar Değişim Tablosu'ndaki Muhasebe Politikaları'ndaki Düzeltmeler 0'e ne kadar oldu?",
+      "gold": "0",
+      "pred": "0",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Kapsamlı Gelir (Gider) tablosunda net artış azalışı ne kadar oldu?",
+      "gold": "-102.932.339",
+      "pred": "-35.000.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Gelir (Gider) açıklanan rakamların neye ait?",
+      "gold": "Bu rakamlar şirketin gelir ve giderini açıklamaktadır.",
+      "pred": "Önceki dönemlerde kaydedilen geliri (giderleri)",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Önceki Dönem ile bu Dönem arasında Esas Faaliyet Kari (Zararı) nasıl değişti?",
+      "gold": "Bu Dönemde Esas Faaliyet Kari (Zararı) 16.719.282 TL'den 10.373.620 TL'ye decreased.",
+      "pred": "Bu Dönemde esas faaliyet kari (zarar) 1,1 million dolar arttı.",
+      "rouge1": 0.4667,
+      "rougeL": 0.4667,
+      "bleu": 0.0404
+    },
+    {
+      "soru": "Yıllık faaliyet raporunu hazırlarken ne tür hususları içerir?",
+      "gold": "Faaliyet yılının sona ermesinden sonra grupta meydana gelen ve özel önem taşıyan olaylar, grubun araştırma ve geliştirme çalışmaları, yönetim kurulu üyeleri ile üst düzey yöneticilere ödenen ücret, prim, ikramiye gibi mali menfaatler, ödenekler, yolculuk, konaklama ve temsil giderleri, ayni ve nakdî imkânlar, sigortalar ve benzeri teminatlar.",
+      "pred": "Bu tür hususlar, şirketin finansal tablolara ilişkin belirsizlikleri ve hata risklerini göstermek için kullanılır.",
+      "rouge1": 0.0769,
+      "rougeL": 0.0513,
+      "bleu": 0.0015
+    },
+    {
+      "soru": "Hangi faktörler sermaye yedeklerinin artmasına neden oldu?",
+      "gold": "Sermaye yedeklerinin artması, şirketin daha iyi bir performans göstermesi ve daha fazla kar elde etmesi nedeniyle gerçekleşti.",
+      "pred": "Sermaye yedeklerinin artması, sermaye yedeklerinin artışı, sermaye yedeklerinin azalışması, sermaye yedeklerinin azalışması, sermaye yedeklerinin artışını hızlandırdı.",
+      "rouge1": 0.1463,
+      "rougeL": 0.1463,
+      "bleu": 0.0572
+    },
+    {
+      "soru": "Ara dönem konsolide financesal bilgilere ilişkin sınırlı denetim, Sınırlı Bağımsız Denetim Standardı (SBDS) 2410'a uygun olarak nasıl yürütülmüştür?",
+      "gold": "Sınırlı denetim, başta finans ve muhasebe konularından sorumlu kişiler olmak üzere ilgili kişilerin sorgulanması ve analitik prosedürler ile diğer sınırlı denetim prosedürlerinin uygulanmasından oluşur.",
+      "pred": "Sınır denetimine ilişkin bir sonuç bildirmek için genel anahtarlar, sınırlı denetim standardları ve genel anahtarlar, sınırlı denetim standardları ve genel anahtarlar, sınırlı denetim standardları ve genel anahtarlar",
+      "rouge1": 0.2703,
+      "rougeL": 0.2703,
+      "bleu": 0.0176
+    },
+    {
+      "soru": "Konsolide finansal tablolar Grup'un 31 Aralık 2025 tarihi itibarıyla konsolide finansal durumunu nasıl açıkladı?",
+      "gold": "Görüşümüze göre, Grup'un 31 Aralık 2025 tarihi itibarıyla konsolide finansal durumunu ve aynı tarihte sona eren hesap dönemine ait konsolide finansal performansını ve konsolide nakit akışlarını açıkladı.",
+      "pred": "Grup'un 31 Aralık 2025 tarihi itibarıyla konsolide finansal durumu, 2025 yılına ait olan tüm şirketlerin toplamı olarak hesaplanır.",
+      "rouge1": 0.4375,
+      "rougeL": 0.375,
+      "bleu": 0.2429
+    },
+    {
+      "soru": "Önceki yıla göre Sermaye Artırımı ne kadar arttı?",
+      "gold": "Sermaye Azaltımı ve Sermaye Avansı ile birlikte, Önceki yıla göre Sermaye Artırımı 0 oldu.",
+      "pred": "18,3 million TL",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "1.926.796 ile 42.794.046 arasındaki fark ne?",
+      "gold": "41.867.250",
+      "pred": "-38.867.250",
+      "rouge1": 0.6667,
+      "rougeL": 0.6667,
+      "bleu": 0
+    },
+    {
+      "soru": "Konsolide finansal durum tablosunda ertelenmiş vergi varlıklarının geri kazanılabilirliği ne kadar?",
+      "gold": "Grupta oluşturulan tahminler ile belirlenmiştir.",
+      "pred": "20,457",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Konsolide finansal tabloların açıklamaları dahil olmak üzere, genel sunumu, yapısı ve içeriği ile bu tabloların, temelini oluşturan işlem ve olayları gerçeğe uygun sunumu sağlayacak şekilde yansıtıp yansıtmadığı değerlendirilmektedir.",
+      "gold": "Bu açıklamaların gerçekçi ve doğru olduğunu değerlendirmektedir.",
+      "pred": "Bu sayfada sunulan konsolide finansal tablolar, temelini oluşturan işlem ve olayları gerçeğe uygun sunumu sağlayacak şekilde yansıtmaktadır.",
+      "rouge1": 0.2105,
+      "rougeL": 0.1579,
+      "bleu": 0.0137
+    },
+    {
+      "soru": "Dönem Karı (Zararı) ne kadar oldu?",
+      "gold": "0",
+      "pred": "10.589.574",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Sermaye Piyasası Kurulu'nca yayımlanan bağımsız denetim standartlarına ve BDS'lere uygun olarak yürütülen bir bağımsız denetim sonucunda verilen makul güvence",
+      "gold": "Yüksek bir güvence seviyesidir ancak var olan importantes yanlışlığın her zaman tespit edileceğini garanti etmez.",
+      "pred": "Bağımsız Denetim Güvencesi (TDG)",
+      "rouge1": 0.0741,
+      "rougeL": 0.0741,
+      "bleu": 0
+    },
+    {
+      "soru": "Kredisine borçlar toplağı ne kadar?",
+      "gold": "123.922.664",
+      "pred": "1.232.988.693",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Reasürörde devredilen primler ne kadar oldu?",
+      "gold": "-19.639.762.641",
+      "pred": "-19.639.762.641",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Nasıl değişti riskten korunma amaçlı türev finansal araçlar?",
+      "gold": "Bu dönemde riskten korunma amaçlı türev finansal araçlar 8.537.873 ile 60.887.483 arasında değiştirdi.",
+      "pred": "Riskten Korunma Amaçlı Türev Finansal Araçlar, 8.537.873 TL'ye 52.349.610 TL'e ve 60.887.483 TL'e",
+      "rouge1": 0.6122,
+      "rougeL": 0.6122,
+      "bleu": 0.0185
+    },
+    {
+      "soru": "Dönem başı bakiyeler ne kadar oldu?",
+      "gold": "3.729.570 TL",
+      "pred": "1.100.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Bankacılık Faaliyet Konusu Varlık ve Yükümlülüklerdeki değişim ne kadar oldu?",
+      "gold": "5.6",
+      "pred": "-35.000.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "EMANET VE REHİNLİ KIYMETLER'ne ait total para miktarı ne kadar?",
+      "gold": "1.105.874.033",
+      "pred": "15.000.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Önceki Dönem Net Dönem Karı veya Zararı ne kadarydı?",
+      "gold": "14.416.684 TL",
+      "pred": "-1.023.886",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Genel Yönetim Giderleri'ne ait total giderler ne kadar oldu?",
+      "gold": "1.156.071",
+      "pred": "-1.156.071",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0
+    },
+    {
+      "soru": "2026 1. Çeyrek Konsolide Finansal Tabloları ne kadardır?",
+      "gold": "13.590.549.690 TL",
+      "pred": "2026 1. Çeyrek Konsolide Finansal Tabloları 1,7 milyon TL'dir.",
+      "rouge1": 0.125,
+      "rougeL": 0.125,
+      "bleu": 0
+    },
+    {
+      "soru": "31 Aralık 2022 tarihi itibarıyla konsolide finansal tablolarda şerefiye olarak muhasebeleştirilen 436.915 bin TL tutarında maddi olmayan duran varlık ne için test edildi?",
+      "gold": "Şerefiye değer düşüklüğü testinin denetimine ilişkin prosedürler uygulanmıştır.",
+      "pred": "Konsolide finansal tablolarda şerefiye olarak muhasebeleştirilen 436.915 bin TL tutarında maddi olmayan duran varlık",
+      "rouge1": 0.0625,
+      "rougeL": 0.0625,
+      "bleu": 0
+    },
+    {
+      "soru": "Ara dönem konsolide finansal tablolara ilişkin sınırlı denetim, neye dayanır?",
+      "gold": "Sınırlı denetim, mainly finance and accounting topics persons olmak üzere ilgili kişilerin sorgulanması ve analitik prosedürler ile diğer sınırlı denetim prosedürlerinin uygulanmasından oluşur.",
+      "pred": "Ara dönem konsolide finansal tablolarına ilişkin sınırlı denetim, başa finans ve muhasebe konularından sorumlu kişiler olmak üzere ilgili kişilerin sorgulanması ve analitik prosedürler ile diğer sınırlı den",
+      "rouge1": 0.5753,
+      "rougeL": 0.5479,
+      "bleu": 0.3784
+    },
+    {
+      "soru": "Muhasebe politikalarında yapılan değişikliklere ilişkin düzeltmeler ne kadar oldu?",
+      "gold": "0",
+      "pred": "0",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Diğer Ciroların toplamı ne kadar oldu?",
+      "gold": "0",
+      "pred": "107.336",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Bağlı Ortaklıklarda İlave Pay Alımlarına ilişkin Nakit Çıkışları ne kadar oldu?",
+      "gold": "0",
+      "pred": "0",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Sermaye Artırımı ne kadar oldu?",
+      "gold": "0",
+      "pred": "0",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Azalışlar ne kadar oldu?",
+      "gold": "969.620 - 867.490 = 101.130 TL",
+      "pred": "-201.769",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "22.467.998 ile 62.238 arasındaki fark ne kadar?",
+      "gold": "20.229",
+      "pred": "-50.835.760",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden bu dönemde şirketin genel performansı nasıl oldu?",
+      "gold": "Bu dönemde şirketin genel performansı azaldı ve birçok faktörden etkilenmiştir. Bu dönemde şirket, birleşme/bölünme/tasfiye etkisine maruz kalmıştır. Ayrıca, kontrol gücü olmayan pay sahipleriyle yapılan işlemler de şirketin performansı üzerinde olumsuz etkiler yapmıştır.",
+      "pred": "Bu dönemde şirketin genel performansı arttı.",
+      "rouge1": 0.2105,
+      "rougeL": 0.2105,
+      "bleu": 0.01
+    },
+    {
+      "soru": "Yönetim kurulu ne kadar süreyle yearly faaliyet raporunu sunar?",
+      "gold": "Yönetim kurulu; grubun o yıla ait faaliyetlerinin akışı ile her yönüyle konsolide finansal durumunu doğru, eksiksiz, dolambaçsız, gerçeğe uygun ve dürüst bir şekilde yansıtacak şekilde hazırlanır.",
+      "pred": "1 yıl",
+      "rouge1": 0.0465,
+      "rougeL": 0.0465,
+      "bleu": 0
+    },
+    {
+      "soru": "YATIRIM FAALİYETLERİNDEN KAYNAKLANAN NAKİT AKIŞLARI",
+      "gold": "-7.195.586",
+      "pred": "-5,1",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "42.883.270 ile 312.684.651 arasındaki fark ne?",
+      "gold": "310.800.381",
+      "pred": "-289.801.381",
+      "rouge1": 0.3333,
+      "rougeL": 0.3333,
+      "bleu": 0
+    },
+    {
+      "soru": "31.03.2026 ve 31.12.2025 tarihleri arasında total assets (TA) ne kadar oldu?",
+      "gold": "502.741.614 TL",
+      "pred": "47.897.177",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Yatırım Giderleri (-) 0 ile ne kadar oldu?",
+      "gold": "0",
+      "pred": "-1.267.534",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden Arttı/Azaldı?",
+      "gold": "Diğer Değişiklikler Nedeni İle Artış (Azalış) -629.834, 209.633, 420.201",
+      "pred": "Dönem Sonuna İlişkin Dördüncü Dönem Karı, 1.024.783.569 ile 1.024.783.569 arasında değişti.",
+      "rouge1": 0.1429,
+      "rougeL": 0.0952,
+      "bleu": 0
+    },
+    {
+      "soru": "Araştırma ve Geliştirme Giderleri ne kadar oldu?",
+      "gold": "-326.918",
+      "pred": "-14.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Önceki Dönem 3 Aylık periodine göre bu dönemin kar orani ne?",
+      "gold": "34.236.728 / 70.368.109 = 0,48",
+      "pred": "-1,12%",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Toplam uzun vadeli yükümlülükler ne kadar?",
+      "gold": "398.556",
+      "pred": "1.823.396",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Maddi Varlıklara İlişkin Avanslar, Yapılmakta Olan Yatırımlar Dahil ne kadar oldu?",
+      "gold": "-242.947.521 - 206.809.454",
+      "pred": "0",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Kontrol Gücü Olmayan Pay Sahiplerinin diğer katkıları neye kadar arttı?",
+      "gold": "Pay Sahiplerinin diğer katkıları 5.156.924 TL'ye kadar arttı.",
+      "pred": "1.027.346",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "5.984.686 ile 48.821.249 arasındaki fark ne?",
+      "gold": "48.036.563",
+      "pred": "-42.836.563",
+      "rouge1": 0.3333,
+      "rougeL": 0.3333,
+      "bleu": 0
+    },
+    {
+      "soru": "Net Dönem Karı 2024 yılında ne kadar oldu?",
+      "gold": "6.557.987 TL",
+      "pred": "-35.678.977 TL",
+      "rouge1": 0.25,
+      "rougeL": 0.25,
+      "bleu": 0.1495
+    },
+    {
+      "soru": "İlişkili Olmayan Taraflardan Kısa Vadeli Borçlanmalar ne kadar?",
+      "gold": "20.224.315",
+      "pred": "20.224.315",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Bağlı Ortaklıklar (Net) ne kadar?",
+      "gold": "209.725.435",
+      "pred": "-258.126",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "6.522.900 ile 6.312.836 arasındaki fark ne?",
+      "gold": "220.064",
+      "pred": "109.064",
+      "rouge1": 0.5,
+      "rougeL": 0.5,
+      "bleu": 0
+    },
+    {
+      "soru": "Vergi Ve diğer yükümlülükler ne kadar?",
+      "gold": "0",
+      "pred": "1.287.364",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Ara dönem özet konsolide finansal tablolar ile tutarlı olup olmadığını ne kadar sınırlı denetim yapan kuruluş determinedür?",
+      "gold": "Sınırlı denetim yapan kuruluş olarak üzerimize düşen sorumluluk, ara dönem faaliyet raporunda yer alan finansal bilgilerin, sınırlı denetimden geçmiş ve 12 Ağustos 2025 tarihli sınırlı denetim raporuna konu olan ara dönem özet konsolide finansal tablolar ve açıklayıcı notlar ile tutarlı olup olmadığına ilişkin ulaşılan sonucun açıklanmasıdır.",
+      "pred": "Evet, Ara dönem özet konsolide finansal tablolar ile tutarlı olup olmadığını kontrol eder.",
+      "rouge1": 0.3,
+      "rougeL": 0.275,
+      "bleu": 0.0306
+    },
+    {
+      "soru": "Konsolide kâr veya zarar tablosu ne kadar oldu?",
+      "gold": "1 Milyar TL",
+      "pred": "-5,678",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Ait Özkaynaklar control'ün ne demek?",
+      "gold": "Özkaynaklar, şirketin finansal durumunu ve performanceını belirlemek için kullanılan bir sistemdir.",
+      "pred": "Özkaynağa ait kontrol",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Kardan Ayrılan Kısıtlanmış Yedekler 20.000 TL'dir.",
+      "gold": "20",
+      "pred": "Eğer doğruysa, neye dair bir değişiklik oldu?",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Geçmiş Yıllar Kar veya Zararı ne kadar oldu?",
+      "gold": "191.240",
+      "pred": "191.240",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "2025 yılına göre TÜPRAŞ-TÜRKİYE PETROL RAFİNERİLERİ A.Ş.'nin varlıklarının toplamı ne kadar oldu?",
+      "gold": "269.992.616",
+      "pred": "47,1 Milyon TL",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Net Faaliyet Kari 2023 yılında ne kadar oldu?",
+      "gold": "14.822.989",
+      "pred": "-1,1 million",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Özkaynağa Dayalı Finansal Araçlara Yapılan Yatırımlara İlişkin Finansal Riskten Korunma Kazançları (Kayıpları) ne kadar oldu?",
+      "gold": "0",
+      "pred": "24.677",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Nakit Akış Tablosu (Dolaylı Yöntem) ile ilgili net nakit akışı ne kadar oldu?",
+      "gold": "-258.352.422",
+      "pred": "-17.687 TL",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Konsolide Edilmeyenler'ne ait olan Maddi Duran Varlıklar (Net) ne kadardır?",
+      "gold": "20.000",
+      "pred": "4.952.298",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Konsolide finansal tabloların sunumu, yapısı ve içeriği ile temelini oluşturan işlem ve olayları gerçeğe uygun şekilde yansıtıp yansıtmadığı değerlendirilmektedir.",
+      "gold": "Konsolide finansal tabloların sunumu, yapısı ve içeriği ile temelini oluşturan işlem ve olayları gerçeğe uygun şekilde yansıtılmıştır.",
+      "pred": "Bu sayfada, grup'un konsolide finansal tablolarının sunumu, yapısı ve içeriğiyle ilgili görüş ve görüş\n\n###",
+      "rouge1": 0.4706,
+      "rougeL": 0.4706,
+      "bleu": 0.0651
+    },
+    {
+      "soru": "Faaliyet raporunda ne gibi hususlar yer alır?",
+      "gold": "Faaliyet raporunda; faaliyet yılının sona ermesinden sonra şirkette meydana gelen ve özel önem taşıyan olaylar, şirketin araştırma ve geliştirme çalışmaları, yönetim kurulu üyeleri ile üst düzey yöneticilere ödenen ücret, prim, ikramiye gibi mali menfaatler, ödenekler, yolculuk, konaklama ve temsil giderleri, ayni ve nakdi imkanlar, sigortalar ve benzeri teminatlar yer alır.",
+      "pred": "Faaliyet raporunda bazı önemli ve önemli olanları yer almaktadır.",
+      "rouge1": 0.1389,
+      "rougeL": 0.1389,
+      "bleu": 0.0003
+    },
+    {
+      "soru": "Faturalandırma sistemleri ile defter-i kebir arasında gerçekleşen önemli kayıtların test edilmesi neye purpose landı?",
+      "gold": "Gerçekleşen kayıtların test edilmesi, sistematik olmayan düzeltmelere yönelik örneklem seçilerek maddi doğrulama testlerinin uygulanması.",
+      "pred": "Bu sebeple yüksek seviyeden yönetmenlere muhtemelen kaynaklanan kayıplardan kaynaklanan kayıtların test edilmesiyle ilgili bir konunun belirlendiği",
+      "rouge1": 0.2273,
+      "rougeL": 0.1818,
+      "bleu": 0.026
+    },
+    {
+      "soru": "Nasıl değişti Toplamlı Gelir (Gider)?",
+      "gold": "Toplamlı Gelir (Gider) 2024 yılında 47.996.757 TL'den 66.431.174 TL'ye arttı.",
+      "pred": "Toplam gelir (gider) 2022 yılında 1,0 milyon TL'ye 1,5 milyon TL'ye arttı.",
+      "rouge1": 0.5,
+      "rougeL": 0.5,
+      "bleu": 0.0399
+    },
+    {
+      "soru": "Neden şirketin genel performansı better oldu?",
+      "gold": "Şirketin genel performansı better oldu çünkü şirketin operasyonları daha verimli hale geldi ve şirketin gelirleri arttı.",
+      "pred": "Bu dönemde şirketin performansı daha iyi hala durumda, bu durumun nedeni olarak şirketin performansı artması ve diğer faktörlerden dolayı",
+      "rouge1": 0.2632,
+      "rougeL": 0.2105,
+      "bleu": 0.0152
+    },
+    {
+      "soru": "Duran varlıkların toplamı ne kadar oldu?",
+      "gold": "57.063.783",
+      "pred": "12.534.325",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Bilanço gününden sonra ne zaman genel kurula sunulur?",
+      "gold": "Yıllık faaliyet raporunu; Grup'un o yıla ait faaliyetlerinin akışı ile her yönüyle finansal durumunu doğru, eksiksiz, dolambaçsız, gerçeğe uygun ve dürüst bir şekilde yansıtacak şekilde hazırlar.",
+      "pred": "Genel Kurası 2019 yılında 31 Aralık'tır.",
+      "rouge1": 0.1154,
+      "rougeL": 0.1154,
+      "bleu": 0
+    },
+    {
+      "soru": "Net Dönem Karı 2021 yılında ne kadar oldu?",
+      "gold": "467.689",
+      "pred": "-3.578.496",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden arttı/azaldı Net Dönem Karı?",
+      "gold": "Net Dönem Karı, 2023 yılında -163.988 TL ile 2024 yılında 6.557.987 TL'ye yükseldi ve bu artışın nedenleri arasında riskten korunma kazançları ve yenilenen değerleme fonu yer alıyor",
+      "pred": "Arttı",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Ticari Borçlar ile İlişkili Taraflara Ticari Borçlar arasındaki fark nedir?",
+      "gold": "28.318.457 - 382.884 = 27.935.573",
+      "pred": "Ticari Borçlar ile İlişkili Taraflara Ticari Borçlar arasındaki fark, 202.277.477 TL'dir.",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden Grup'un konsolide finansal tablolarında muhasebeleştirilen bilet satışlarından doğan yolcu uçuş yükümlülükleri arttı?",
+      "gold": "Bilet yanma gelirlerinin hesaplamasında kullanılan istatistiksel verilerin tutarlılığı geçmişte gerçekleşen verilerle karşılanamadı ve bu durum bilet yanma gelirlerinin hesaplama processinde bir problem oluşturdu.",
+      "pred": "Grup'un konsolide finansal tablolarında muhasebeleştirilen bilet satışlarından doğan yolcu uçuş yükümlülükleri arttı, bu nedenle Grup'un konsolide finansal tablolarındaki muhasebeleştirilen bilet",
+      "rouge1": 0.1515,
+      "rougeL": 0.1212,
+      "bleu": 0.0099
+    },
+    {
+      "soru": "Hangi faktörler faaliyette elde edilen nakit akışını etkiledi?",
+      "gold": "Faaliyetin genel performansı ve nakit akışının artmasıyla birlikte, faaliyette elde edilen nakit akışını etkileyen faktörler arasında şirketin finansal durumları, competitorler ile olan rekabet ve market koşulları yer alıyor.",
+      "pred": "Faaliyetlerden elde edilen nakit akışı, şirketin faaliyetlerinden elde ettiği verimler ile birlikte, şirketin faaliyetlerindeki gelişmelerine bağlı olarak, şirketin faaliyetlerinden elde ettiği verimler ile birlikte",
+      "rouge1": 0.2188,
+      "rougeL": 0.1875,
+      "bleu": 0.0394
+    },
+    {
+      "soru": "Nasıl değişti bakiyeler?",
+      "gold": "Bakiyeler 2.991 ile 100.000 arasında arttı.",
+      "pred": "Bakiyeler, 2019 yılında 3.457.687 TL olarak hesaplanırken, 2020 yılında ise 3.457.687 TL olarak hesaplandı.",
+      "rouge1": 0.125,
+      "rougeL": 0.125,
+      "bleu": 0
+    },
+    {
+      "soru": "Faaliyet Giderleri (-) neye corresponding?",
+      "gold": "-17.710.934.437",
+      "pred": "-17.710.934.437",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Vadeli Döviz Satım İşlemleri'ne ait total para miktarı ne kadar?",
+      "gold": "35.115.034",
+      "pred": "125.194.478",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Araştırma ve Geliştirme Giderleri'ne ait olan oran ne kadar?",
+      "gold": "-296.447 (oranda %)",
+      "pred": "1,067.538",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Gider Tahahkkukları ne kadar oldu?",
+      "gold": "1.684.998.570",
+      "pred": "-1.000.000",
+      "rouge1": 0.2857,
+      "rougeL": 0.2857,
+      "bleu": 0
+    },
+    {
+      "soru": "Makul güvence ne demektir?",
+      "gold": "Makul güvence, yüksek bir güvence seviyesidir ancak, var olan önemli bir yanlışlığın her zaman tespit edileceğini garanti etmez.",
+      "pred": "Bağımsız denetim, bağımsız denetimle ilgili bir bağımsız denetçinin görevini yerine getirmek için gereken bir yeterli zaman ve maliyet sağlanması konusundadır. Bağımsız denetim, ba",
+      "rouge1": 0.1333,
+      "rougeL": 0.1333,
+      "bleu": 0.0109
+    },
+    {
+      "soru": "Kilit denetim konuları neye dayanır?",
+      "gold": "Cari döneme ait konsolide finansal tabloların bağımsız denetiminde en çok önem arz eden konulardır.",
+      "pred": "Kilit denetim konuları Grup'un müşteri sözleşmelerinden hasılatla ilgili uyguladığı muhasebe ile ilgilidir.",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "İştirak, Bağlı Ortaklık ve Birlikte Kontrol Edilen Ortaklıklar (İş Ort.) Satış Karları'ne ait olan rakam ne kadar?",
+      "gold": "0",
+      "pred": "-1.699.367",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden arttı Kar veya Zararda Yeniden Sınıflandırılmayacak Birikmiş Diğer Kapsamlı Gelirler veya Giderler?",
+      "gold": "Bu dönemde şirketin finansal performansı daha iyi wasn'tir. Şirket, daha fazla sermaye harcadı ve daha az gelirden elde etti.",
+      "pred": "Kar veya Zararda yeniden sınıflandırılacak olan diğer kapsamlı gelire veya giderler, şirketin kar veya zarara neden olup olmadığını belirten bir faktörlere bağlı olarak, şirketin kar veya zararın ne kadar dağıt\n\n###",
+      "rouge1": 0.0328,
+      "rougeL": 0.0328,
+      "bleu": 0.006
+    },
+    {
+      "soru": "Yıllık faaliyet raporunun hazırlanması için ne kadar süre gerekir?",
+      "gold": "Yıllık faaliyet raporu; Grup'un 1 Ocak - 31 Aralık 2022 hesap dönemine ilişkin tam set konsolide finansal tablolara ilişkin denetçi görüşümüzde olumlu görüş bildirmiş bulunuyoruz.",
+      "pred": "30 gün",
+      "rouge1": 0.0513,
+      "rougeL": 0.0513,
+      "bleu": 0
+    },
+    {
+      "soru": "Ara dönem özet finansal tablolar ile tutarlı olup olmadığına ilişkin ulaşılan sonucun açıklanmasıdır?",
+      "gold": "Sınırlı denetim yapan kuruluş olarak üzerimize düşen sorumluluk, ara dönem faaliyet raporunda yer alan finansal bilgilerin, sınırlı denetimden geçmiş ve 29 Temmuz 2025 tarihli sınırlı denetim raporuna konu olan ara dönem özet financesal tablolar ile tutarlı olup olmadığına ilişkin ulaşılan sonucun açıklanmasıdır.",
+      "pred": "Evet, Ara dönem özet finansal tablolar ile tutarlı olup olmadığına ilişkin ulaşılan sonucu açıklanmıştır.",
+      "rouge1": 0.4304,
+      "rougeL": 0.4051,
+      "bleu": 0.0665
+    },
+    {
+      "soru": "Nasıl değişti garanti ve kefaletler?",
+      "gold": "Güncel garanti ve kefalet tutarları 4.690.220.033 ile 283.802.597 arasında değişmektedir.",
+      "pred": "Garanti ve kefaletler, 2023 yılında 823.125.847 TL'ye, 2022 yılında 283.802.597 TL'ye arttı.",
+      "rouge1": 0.2927,
+      "rougeL": 0.2439,
+      "bleu": 0.0203
+    },
+    {
+      "soru": "Yatırım amaçlı gayrimenkul satımından kaynaklanan nakit girişleri",
+      "gold": "2022 yılında 156.138 TL yatırım amacını taşıyan gayrimenkul satıldığı tespit edilmiştir.",
+      "pred": "-1.066.160",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "20.000.000 ile 30.000.000 arasında olan borçlar ne kadar?",
+      "gold": "11.040.756.046",
+      "pred": "19.385.142.884",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Dönem başı nakit ve nakit benzerleri 3. Dönemde ne kadar oldu?",
+      "gold": "1.416.509.311 TL",
+      "pred": "-1.000.000",
+      "rouge1": 0.25,
+      "rougeL": 0.25,
+      "bleu": 0
+    },
+    {
+      "soru": "Konsolide finansal tabloların, açıklamalar dahil olmak üzere, genel sunumu, yapısı ve içeriği ile bu tabloların, temelini oluşturan işlem ve olayları gerçeğe uygun sunumu sağlayacak şekilde yansıtıp yansıtmadığı değerlendirilmektedir.",
+      "gold": "Konsolide finansal tabloların, açıklamalar dahil olmak üzere, genel sunumu, yapısı ve içeriği ile bu tabloların, temelini oluşturan işlem ve olayları gerçeğe uygun sunumu sağlayacak şekilde yansıtıp yansıtmadığı değerlendirilmektedir.",
+      "pred": "Bu sayfada sunulan bilgiler, konsolide finansal tabloların açıklamalarını içeriyor. Bu tablolar, konsolide finansal tablolarının temelini oluşturur.",
+      "rouge1": 0.3636,
+      "rougeL": 0.3636,
+      "bleu": 0.0069
+    },
+    {
+      "soru": "Birlikte Kontrol Edilen Ortaklıklar (İş Ortaklıkları) (Net) ne kadardir?",
+      "gold": "1.11",
+      "pred": "1.10",
+      "rouge1": 0.5,
+      "rougeL": 0.5,
+      "bleu": 0
+    },
+    {
+      "soru": "İmtiyaz Sözleşmelerine İlişkin Finansal Varlıklar ne kadar?",
+      "gold": "0",
+      "pred": "13.787",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "KİRALAMA İŞLEMLERİNDEN YÜKÜMLÜLÜKLER (Net) ne kadar oldu?",
+      "gold": "1.544.602",
+      "pred": "1.544.602",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Satın Alınan İtfa Edilmiş Maliyeti ile Ölçülen Finansal Varlıklar ne kadar Elden Çıkarındı?",
+      "gold": "76.724.490",
+      "pred": "18.000.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Diğer Duran Varlıkların toplamı ne kadar?",
+      "gold": "4.870.066",
+      "pred": "4.870.066",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Bu Dönemde şirketin genel performansı nasıl oldu?",
+      "gold": "Finansman Gelirleri ve Net Parasal Pozisyon Kazançları (Kayıpları) arttı.",
+      "pred": "Dönem sonunda, şirketin toplam paraları 1.000.000 TL olarak hesaplanır.",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Nakit ve Nakde Eşdeğer Varlıklar Üzerindeki Etkisi ne kadar oldu?",
+      "gold": "1.756.658",
+      "pred": "-27.005.886",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Maddi Duran Varlık Yeniden Değerleme Artışları (Azalışları) ne kadar oldu?",
+      "gold": "370.705",
+      "pred": "24.677",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Yatırım Amaçlı Gayrimenkuller değer düşüklüğü karşılığı ne kadar?",
+      "gold": "0",
+      "pred": "-7.175.270",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Aktifleştirme hesaplamaları konsolide finansal tablolar açısından önemli tutarlarda olması ve yönetimin bu konudaki tahminlerini içermesi neden oldu.",
+      "gold": "Konsolide finansal tabloların TFRS'lere uygun olarak hazırlanmasından, gerçeğe uygun bir biçimde sunumundan ve hata veya hile kaynaklı önemli yanlışlık içermeyecek şekilde hazırlanması için gerekli gördüğü iç kontrolden sorumludur.",
+      "pred": "Konsolide finansal tabloların konsolide finansal tabloların konsolide finansal tabloların konsolide finansal tabloların konsolide finansal tabloların konsolide finansal tabl",
+      "rouge1": 0.125,
+      "rougeL": 0.125,
+      "bleu": 0.0307
+    },
+    {
+      "soru": "Neden 812.228.502 ile 562.028.901 arasında fark var?",
+      "gold": "Bu iki rakamın arasında fark, şirketin alımlarını ve satımlarını etkileyen faktörler ve ekonomi içinde yaşanan değişiklikler nedeniyle oluşmuştur.",
+      "pred": "Düşüklüğün azalışının veya artışının, kredi riskinden korunma için önemli bir faktör olup, bu nedenle, 812.228.502 ile 562.028.901 arasında fark oluştu.",
+      "rouge1": 0.3077,
+      "rougeL": 0.1538,
+      "bleu": 0.0096
+    },
+    {
+      "soru": "Toplam Fon Giderleri ne kadar oldu?",
+      "gold": "0",
+      "pred": "1.287.564",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Satın Alınan İtfa Edilmiş Maliyeti ile Ölçülen Finansal Varlıklar ne kadar oldu?",
+      "gold": "11.131.607",
+      "pred": "1.648.625",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "10. Dönemde İlişkili Taraflardan Uzun Vadeli Borçlanmalar ne kadar oldu?",
+      "gold": "123.807",
+      "pred": "149.000",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Dönem 30.06.2025 ile 31.12.2024 arasında cari varlıkların toplamı ne kadar oldu?",
+      "gold": "72.887.169.101 TL",
+      "pred": "-1,78 TL",
+      "rouge1": 0.25,
+      "rougeL": 0.25,
+      "bleu": 0.1495
+    },
+    {
+      "soru": "Nasıl değişti forward sözleşmenin forward bileşeninin değerinde?",
+      "gold": "Forward sözleşmenin forward bileşeninin değeri 685.260 TL'den 3.751.947 TL'ye yükseldi.",
+      "pred": "Forward sözleşmenin forward bileşeninin değerinde 1.547.238 TL'ye düşmüştur.",
+      "rouge1": 0.5405,
+      "rougeL": 0.5405,
+      "bleu": 0.2847
+    },
+    {
+      "soru": "Nakit ve Nakit Benzererleri ile ilgili enflasyon etkisi ne kadar oldu?",
+      "gold": "-453.304",
+      "pred": "16.877",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Diğer Değişiklikler Nedeni İle Artış (Azalış) ne kadar oldu?",
+      "gold": "40.188",
+      "pred": "1.287.534",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "8.371.473 ile 7.174.626 arasındaki fark ne?",
+      "gold": "1.196.847",
+      "pred": "1.593.003",
+      "rouge1": 0.3333,
+      "rougeL": 0.3333,
+      "bleu": 0
+    },
+    {
+      "soru": "Dönem Kari (Zararı) nedir?",
+      "gold": "Dönem Kari (Zararı), bir şirketin bir dönemin içinde elde ettiği zarar veya kazancın toplamıdır.",
+      "pred": "22.006.621",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Peşin Ödenmiş Giderler ile Ertelenmiş Vergi Varlığı TOPLAM DÖNEN VARLIKLAR'a ne kadar olan?",
+      "gold": "4.230.549",
+      "pred": "1.713.693",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Konsolide olan finansal tablo niteliği nedir?",
+      "gold": "Finansal tablo niteliği konsolide",
+      "pred": "Konsolide",
+      "rouge1": 0.3333,
+      "rougeL": 0.3333,
+      "bleu": 0
+    },
+    {
+      "soru": "Dönem 2023-2024'te şirketin genel performansı nasıl oldu?",
+      "gold": "Bu dönemde şirketin genel performansı olumlu olarak görüldü. Şirket, hedeflerine ulaşmaya devam etti ve gelirleri arttı.",
+      "pred": "Genel performans, 2023 yılında 1.175.000 TL'ye düşmüştür.",
+      "rouge1": 0.2286,
+      "rougeL": 0.1714,
+      "bleu": 0
+    },
+    {
+      "soru": "Nasıl değişti mal varlıkların dengesi?",
+      "gold": "Mal varlıklarının dengesi 2025 yılı 3. çeyreğinde 10.095.552 TL olarak belirlendi.",
+      "pred": "Mal varlıkların dengesinin artması, mal ve maliyet varlıkları'na 27.694.000 tl olarak düşülen.",
+      "rouge1": 0.3243,
+      "rougeL": 0.3243,
+      "bleu": 0.0203
+    },
+    {
+      "soru": "TOPLAM DURAN VARLIKLAR 60.975.060'dir.",
+      "gold": "Bu değer TOPLAM DURAN VARLIKLAR'a ait olan diğer duran varlıkların toplamıdır.",
+      "pred": "Eğer 2025 yılında toplam duran varlıkların ortalama %10'lu artışı, 2025 yılına kadar toplam duran varlıkların ortalama %10'lu azalışının beklenmektedir.",
+      "rouge1": 0.32,
+      "rougeL": 0.28,
+      "bleu": 0.0215
+    },
+    {
+      "soru": "Faizler ne kadar oldu?",
+      "gold": "-4.340.123",
+      "pred": "-4.340.123",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Neden arttı menkul değerlerden alınan faizler?",
+      "gold": "22.869.147 ile 22.209.169 arasında arttı ve bu artışın temelinde gerçeğe uygun değer farkı kar zarara yansıtanlar var",
+      "pred": "Dönem Sonuna Ulaşmakta Olumlu Bir Keşfi Olup Uluslararası İlişkili Marka Markalarında Menkul Değerlerden Alınan Faizler Arttırma Kapsamına Ait",
+      "rouge1": 0.1091,
+      "rougeL": 0.0727,
+      "bleu": 0
+    },
+    {
+      "soru": "Nasıl değişti özkaynaklar?",
+      "gold": "Özkaynaklar Değişim Tablosu (TFRS 9'a Göre Karşılık Ayrılmış) ile yapılan düzeltmelerden sonra bakiye 5.5 milyara kadar arttı.",
+      "pred": "Özkaynaklar, 2023 yılında 45.678.900 TL olarak hesaplanırken, 2022 yılında ise 45.678.900 TL ile aynı şekilde hesaplandı.",
+      "rouge1": 0.1154,
+      "rougeL": 0.1154,
+      "bleu": 0.0116
+    },
+    {
+      "soru": "Pazarlama Giderleri'ne ait olan tarih ne?",
+      "gold": "2022",
+      "pred": "20.01.2023",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Gerçeğe Uygun Değer Kayıpları (Kazançları) ile İlgili Düzeltmeler ne kadar oldu?",
+      "gold": "-1.859",
+      "pred": "207.533",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Faaliyetler ile İlgili diğer Borçlardaki Artış (Azalış) ile İlgili Düzeltmeler ne kadar oldu?",
+      "gold": "3.326.948",
+      "pred": "-1.693.848",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Önceki Dönem net karı zararı ne kadar oldu?",
+      "gold": "-3.506.970",
+      "pred": "-1.027.386",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Uzun vadeli borçlanmalar ne kadar idi?",
+      "gold": "184.207.533.926",
+      "pred": "166.085.410.756",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Kilit denetim konularının en çok önem arz eden konuları ne?",
+      "gold": "Cari döneme ait finansal tabloların bağımsız denetiminde",
+      "pred": "Kilit denetim konularının en çok önem arz eden konuları, şirketin finansal tablolarda gösterdiği bilgi ve verilen bilgilere ilişkin etik kriterlerle uygun olarak sunulan diğer sorumlulukları içeriyor.",
+      "rouge1": 0.0909,
+      "rougeL": 0.0455,
+      "bleu": 0.0073
+    },
+    {
+      "soru": "Önceki döneme göre ana ortaklık payları ne kadar arttı?",
+      "gold": "2.778.341 - 4.996.552 = -1.218.211",
+      "pred": "2.160.863",
+      "rouge1": 0.1667,
+      "rougeL": 0.1667,
+      "bleu": 0
+    },
+    {
+      "soru": "Net Faiz Geliri ve ya Gideri 2024 yılında ne kadar oldu?",
+      "gold": "65.044.935 TL",
+      "pred": "-18.677.227 TL",
+      "rouge1": 0.25,
+      "rougeL": 0.25,
+      "bleu": 0.1495
+    },
+    {
+      "soru": "Konsolide finansal tabloların bağımsız denetimine ilişkin sorunsuz bir denetim yapıldığına dair neden ve sonuçları nedir?",
+      "gold": "Konsolide finansal tabloların bağımsız denetimine ilişkin sorunsuz bir denetim yapıldığına dair neden ve sonuçları, Grup'un 31 Aralık 2025 tarihi itibarıyla konsolide finansal durumunu ve aynı tarihte sona eren hesap dönemine ait konsolide finansal performansını ve konsolide nakit akışlarını Türkiye Finansal Raporlama Standartları'na uygun olarak tüm importantes yönleriyle sunmasıdır. Bu, Grup'un konsolide finansal tablolarının bağımsız denetimine ilişkin sorunsuz bir denetim yapıldığına dair neden ve sonuçlarıdır.",
+      "pred": "Bu konuda, konsolide finansal tabloların bağımsız denetimine ilişkin sorunsuz bir denetim yapılmıştır.",
+      "rouge1": 0.2982,
+      "rougeL": 0.2807,
+      "bleu": 0.0086
+    },
+    {
+      "soru": "Önceki Dönem ile bu Dönem arasında Sürdürülen Faaliyetler Vergi Öncesi Kari (Zarari) ne kadar azaldı?",
+      "gold": "-1.183.307.923 TL",
+      "pred": "-155.038.134 - 387.994.603",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Bağımsız denetimin planlanan kapsamı ve zamanlaması ile importante denetim bulgularını üst yönetimden sorumlu olanlara bildirmekteyiz.",
+      "gold": "Bağımsız denetimin planlanan kapsamı ve zamanlaması ile önemli denetim bulgularını üst yönetimden sorumlu olanlara bildirmekteyiz. Bu durum, bağımsızlığa ilişkin etik hükümlere uygunluk sağladığımızı üst yönetimden sorumlu olanlara bildirmiş bulunduktayız.",
+      "pred": "Evet, bağımsız denetimin planlanan kapsamı ve zamanlaması ile önemli denetim bulgularını üst yönetimden sorumlu olanlara bildirmekteyiz.",
+      "rouge1": 0.5938,
+      "rougeL": 0.5938,
+      "bleu": 0.3821
+    },
+    {
+      "soru": "Değerine Dahil Edilen Tutar neden arttı?",
+      "gold": "Kaleminden Çıkarılan ve Finansal Olmayan Varlığın (Yükümlülüğün) veya Gerçeğe Uygun Değer Riskinden Korunma Muhasebesi Uygulanan Kesin Taahhüdün Başlangıç Maliyetine veya Defter Değerine Dahil Edilen Tutar",
+      "pred": "Artış",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "12 ayda yapılan yatırımlar ne kadar oldu?",
+      "gold": "135.963.125",
+      "pred": "135.963.125",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Nakit Akış Tablosu (Dolaylı Yöntem) için İşletme Faaliyetlerinden Nakit Akışları ne kadar?",
+      "gold": "4.233.050",
+      "pred": "25.687.439",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Ağır ve Ağır Benzerleri için 2025 yılında net geliri ne kadar oldu?",
+      "gold": "52.286.723 TL",
+      "pred": "3.487.900 TL",
+      "rouge1": 0.25,
+      "rougeL": 0.25,
+      "bleu": 0.1495
+    },
+    {
+      "soru": "Muhasebe tahminlerinin ve ilgili açıklamaların makul olup olmadığıne dair değerlendirme neye dayanır?",
+      "gold": "Elde edilen denetim kanıtlarına dayanarak",
+      "pred": "Grup'un sürekliliğini devam ettirmeye yönelik konsolide finansal tablolara ilişkin bir değerlendirme",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden arttı Nakit ve Nakit Similareri 3. Dönemde?",
+      "gold": "Sermaye Avansı ve Ödenmiş Sermaye ile ilgili Değişikliklere bağlı olarak arttı.",
+      "pred": "Nakit ve Nakit Similareri 3. Dönemde arttı.",
+      "rouge1": 0.1818,
+      "rougeL": 0.1818,
+      "bleu": 0.0222
+    },
+    {
+      "soru": "2.110.968 ile 77.813.749 arasında ne kadar artış/açıklık var?",
+      "gold": "75.702.781",
+      "pred": "-55.702.781",
+      "rouge1": 0.6667,
+      "rougeL": 0.6667,
+      "bleu": 0
+    },
+    {
+      "soru": "Neden total long-term liabilities arttı?",
+      "gold": "Geçmiş yıllar karları veya zararı ve Tanımlanmış Fayda Planları Yeniden Ölçüm Kazançları (Kayıpları) arttı",
+      "pred": "Long-term liabilities artması, şirketin daha fazla risk beklemesine neden oldu.",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Önceki Dönemle karşılaştırma: Nasil deger dusuklugunden kurtulmus?",
+      "gold": "Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler neticesinde 3.818'e kadar düştü.",
+      "pred": "Nasıl deger dusuklugunden kurtulmasından, 2024 yılında net karın 975.620 TL ile 2023 yılında net karın 1.242.230 TL arasında değişti.",
+      "rouge1": 0.1176,
+      "rougeL": 0.0784,
+      "bleu": 0.0102
+    },
+    {
+      "soru": "Hile kaynaklı önemli bir yanlışlık ne demektir?",
+      "gold": "Hile kaynaklı importante bir yanlışlık, hata kaynağından veya hile kaynağından gelen bir yanlışlık olarak tanımlanır. Bu tür yanlışlıklar, finansal tablolara etkileyebilir ve bu nedenle dikkat çekilmelidir.",
+      "pred": "Yüksek bir hile kaynaklı yanlışlık, genellikle bir hile kaynaklı yanlışlık, genellikle bir hile kaynaklı yanlışlık, genellikle bir hile kaynaklı yanlışlık, genellikle bir hile kaynaklı yanlışlık,",
+      "rouge1": 0.3562,
+      "rougeL": 0.3562,
+      "bleu": 0.0109
+    },
+    {
+      "soru": "Dönem Karı (Zararı) olan cari dönemin kar oranı neydi?",
+      "gold": "11.438.249 TL / 99.833.744 TL = % -11,64%",
+      "pred": "-1,78",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "6.557.987 ile 7.017.157 arasındaki fark nedir?",
+      "gold": "-142",
+      "pred": "-142",
+      "rouge1": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.1778
+    },
+    {
+      "soru": "Hayat Dışı Teknik Bölümüne Aktarılan Yatırım Gelirleri ne kadar oldu?",
+      "gold": "-4.900.937.171",
+      "pred": "1.287.435",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Diğer Maddi Olmayan Duran Varlıklar 2023 yılında ne kadar oldu?",
+      "gold": "48.284",
+      "pred": "27.812",
+      "rouge1": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0
+    },
+    {
+      "soru": "Ara hesap dönemine ait özet faaliyet raporu ne zaman yayımlandı?",
+      "gold": "28.04.2026 20:12:23",
+      "pred": "2026",
+      "rouge1": 0.2857,
+      "rougeL": 0.2857,
+      "bleu": 0
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "SmolLM2-360M": {
+    "zero_shot": {
+      "rouge1": 0.1315,
+      "rougeL": 0.1259
+    },
+    "few_shot_k3": {
+      "rouge1": 0.0599,
+      "rougeL": 0.052
+    }
+  },
+  "TinyLlama-1.1B": {
+    "zero_shot": {
+      "rouge1": 0.1915,
+      "rougeL": 0.1846
+    },
+    "few_shot_k3": {
+      "rouge1": 0.0618,
+      "rougeL": 0.0553
+    }
+  },
+  "Qwen2.5-1.5B": {
+    "zero_shot": {
+      "rouge1": 0.1972,
+      "rougeL": 0.1893
+    },
+    "few_shot_k3": {
+      "rouge1": 0.1678,
+      "rougeL": 0.1553
+    }
+  }
+}
